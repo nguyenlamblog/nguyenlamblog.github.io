@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Related Posts By Nurhidayat</title>
+    <script>
+      function rcentbytag(e) {
+        document.write('<div class="scroll">');
+        for (var t = 0; t < e.feed.entry.length; t++) {
+          var n = e.feed.entry[t];
+          var r = n.title.$t;
+          var rs = r.slice(0, 35);
+          var i;
+          if (t == e.feed.entry.length) break;
+          for (var o = 0; o < n.link.length; o++) {
+            if (n.link[o].rel == "replies" && n.link[o].type == "text/html") {
+              var u = n.link[o].title;
+              var f = n.link[o].href;
+            }
+            if (n.link[o].rel == "alternate") {
+              i = n.link[o].href;
+              break;
+            }
+          }
+          var l;
+          try {
+            l = n.media$thumbnail.url.replace(
+              /\/s[0-9]+\-c/g,
+              "/w280-h140-p-k-no-nu"
+            );
+          } catch (h) {}
+          if (l == undefined || l.includes("img.youtube.com")) {
+            l = "https://fiik346.github.io/img/noimage.svg";
+          }
+          var p = n.published.$t;
+          var v = p.substring(0, 4);
+          var m = p.substring(5, 7);
+          var g = p.substring(8, 10);
+          var y = new Array();
+          y[1] = "Januari";
+          y[2] = "Februari";
+          y[3] = "Maret";
+          y[4] = "April";
+          y[5] = "Mei";
+          y[6] = "Juni";
+          y[7] = "Juli";
+          y[8] = "Agustus";
+          y[9] = "September";
+          y[10] = "Oktober";
+          y[11] = "November";
+          y[12] = "Desember";
+
+          document.write('<div class="card" style="width:220px">');
+          if (showpostthumbnails == true)
+            document.write(
+              '<a href="' +
+                i +
+                '" target ="_blank" title="' +
+                r +
+                '" class="d-block"><img class="card-img-top lazyload" alt="' +
+                r +
+                '" data-src="' +
+                l +
+                '"/></a>'
+            );
+          document.write('<div class="card-body">');
+          document.write(
+            '<h3 class="card-title"><a href="' +
+              i +
+              '" target ="_blank" data-toggle="tooltip" title="' +
+              r +
+              '" rel="nofollow">' +
+              rs +
+              "</a>...</h3>"
+          );
+          var x = "";
+          var T = 0;
+          if (showpostdate == true) {
+            x =
+              '<span class="small">' +
+              x +
+              g +
+              " " +
+              y[parseInt(m, 10)] +
+              " " +
+              v +
+              "</span>";
+            T = 1;
+          }
+          document.write(x);
+          document.write("</div>");
+          document.write("</div>");
+        }
+        document.write("</div>");
+      }
+    </script>
+    
+    <style>
+      .related {
+        height: max-content;
+      }
+      .related .title{
+        font-size: 1.1rem;
+      }
+    .scroll{
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: .3rem;
+    }
+    .scroll .card{
+      display: inline-block;
+      margin-right: .5rem;
+      height: 100%;
+      border: 1px solid rgba(0,0,0,0.2);
+      border-radius: .25rem;
+    }
+    .scroll .card-img-top{
+      width: 100%;
+      display: block;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+    }
+    .scroll .card-title{
+      white-space: normal;
+      font-size: 1rem;
+      color: #4a4a4a;
+      margin-top: 0;
+    }
+    .scroll .card-body{
+      display: flex;
+      flex-wrap: wrap;
+      padding: .5rem 1rem;
+    }
+    .scroll .small{
+      font-size: 14px;
+      color: rgba(0,0,0,0.5);
+    }
+    .scroll a{
+      color: rgba(0,0,0,0.8);
+      text-decoration: none;
+    }
+    .scroll a:hover{
+      color: #000;
+    }
+      </style>
+  </head>
+  <body style="font-family: system-ui;">
+    <script type="text/javascript">
+      var showpostthumbnails = true;
+      var showpostdate = true;
+    </script>
+    <div class="related">
+      <h5 class="title">Related Article</h5>
+      <script src="//nurhidayat.web.id/feeds/posts/default?alt=json-in-script&amp;callback=rcentbytag&amp;max-results=10"></script>
+    </div>
+    <script src="https://fiik346.github.io/js/lazysizes/5.2.2.min.js"></script>
+  </body>
+</html>
