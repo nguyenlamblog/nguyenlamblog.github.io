@@ -1,3 +1,61 @@
+/* Widget Label */
+.Label .widget-content{font-size:90%;color:#161617}
+.Label ul, .Label .cloud-label, .Label .cloud-label .label-all{display:flex;flex-wrap:wrap}
+.Label li{width:calc(50% - 12.5px);margin-bottom:13px}
+.Label li:nth-child(2n+1){margin-right:25px}
+.Label li a{display:flex;align-items:center;color:inherit}
+.Label li a svg{flex-shrink:0;width:20px;height:20px;margin-left:5px;fill:#767676}
+.Label li a:hover svg{fill:#005af0}
+.Label li:nth-child(2n+1).label-show{margin:0}
+.Label .label-show{width:100%;margin:0}
+.Label .label-show ul, .Label .cloud-label .label-all{margin:0;padding:0;max-height:0;overflow:hidden;-webkit-transition:all .4s ease;transition:all .4s ease;}
+.Label .label-show label{display:flex;align-items:center;justify-content:center;margin-top:4px;padding:4px 0;color:#767676;cursor:pointer}
+.Label .label-show label:before{content: attr(data-show);margin-right:5px; display:none}
+.Label .label-show label span{margin-right:10px}
+.Label .label-show label svg{fill:#767676;height:14px}
+.Label .label-input:checked + .label-all ul, .Label .cloud-label .label-input:checked +  .label-all{max-height:100vh}
+.Label .label-input:checked + .label-all + label:before{content: attr(data-hide)}
+.Label .label-input:checked + .label-all + label svg{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.Label .label-title{margin-right:auto;padding-right:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.Label .label-count{flex-shrink:0;font-size:11px;color:#767676}
+.Label .cloud-label .label-show label{margin:0 10px 0 0;padding:5px 12.5px;line-height:22px;border-radius:3px;background-color:#f2f2f2}
+.Label .cloud-label > *, .Label .cloud-label .label-all > *{display:block;flex:1 0 auto}
+.Label .cloud-label a{display:flex;justify-content:space-between;margin:0 10px 10px 0;padding:5px 12.5px;line-height:22px;border-radius:3px;background-color:#f2f2f2;color:#48525c}
+
+/* Widget Profile */
+.Profile{font-size:13px}
+.Profile .individual{display:flex;align-items:center;flex-direction:row;position:relative;padding:12px 15px;border:1px solid #ebeced;border-radius:3px;background:transparent;overflow:hidden}
+.Profile .individual:after{content:'';display:block;position:absolute;bottom:3px;right:0;width:40px;height:80px;background:rgba(0,0,0,.025);border-radius:80px 0 0 80px;}
+.Profile .individual .profile-image, .Profile .individual .profile-info{position:relative;z-index:2;}
+.Profile .individual .profile-image{flex:0 0 auto;width:60px;}
+.Profile .individual .profile-image a{display:block;height:60px;border-radius:50%;overflow:hidden;background-color:#ebeced}
+.Profile .individual .profile-image img{max-height:60px;}
+.Profile .individual .profile-info{flex-grow:1;margin-right:auto;padding-left:15px;}
+.Profile .individual .profile-datablock{margin:0;}
+.Profile .individual .profile-datablock a{display:block;margin:0;color:#161617;font-family:'Nunito Sans', sans-serif;font-size:13px;font-weight: 600}
+.Profile .individual .profile-datablock a svg {width:15px;height:15px;vertical-align:middle;fill:#1da1f2;margin-left: 5px}
+.Profile .individual .profile-textblock{font-size:11px;margin:5px 0 0;color:#989b9f;line-height:1.3em}
+.Profile .individual .profile-link{display:none;margin-top:5px;font-size:11px;}
+.Profile .team li:not(:first-child){margin-top:10px}
+.Profile .team .team-member a {display:flex;align-items:center;flex-direction:row;position:relative;padding:10px 15px;border-radius:8px;background:rgba(255,255,255,.98);box-shadow:0 4px 12px 0 rgba(9,32,76,.05);overflow:hidden;}
+.Profile .team .team-member a:after{content:'';display:block;position:absolute;bottom:0;right:0;width:70px;height:65px;background:rgba(0,0,0,.025);border-radius:70px 0 5px 0;}
+.Profile .team .team-member a .profile-image{flex:0 0 auto;width:50px;height:50px;border-radius:50%;overflow:hidden;background-color:#ebeced}
+.Profile .team .team-member a .profile-name{flex-grow:1;margin:0 auto 0 15px;font-family:'Nunito Sans', sans-serif;color:#161617;}
+.Profile .team .team-member a .profile-name:after{content:'View profile';display:block;margin-top:5px;color:#989b9f;font-size:11px;font-family:'Nunito Sans', sans-serif}
+.Profile .team .team-member a .profile-name:hover:after{text-decoration:underline;}
+
+/* Widget FollowByEmail */
+.FollowByEmail{position:relative;padding:18px 20px 20px;border:1px solid #ebeced;border-radius:3px;font-size:13px}
+.FollowByEmail:after{content:'';display:block;position:absolute;bottom:0;right:0;width:100px;height:100px;background:rgba(0,0,0,.025);border-radius:100px 0 0;}
+.FollowByEmail .title{font-size:14px;margin-bottom:20px}
+.FollowByEmail .follow-by-email-text{display:block;margin-bottom:15px;color:$(alt.text.colors)}
+.FollowByEmail .follow-by-email-label{position:absolute;top:1px;right:0;display:inline-block;padding:8px 12.5px 8px 20px;cursor:pointer}
+.FollowByEmail .follow-by-email-label svg{fill:$(alt.text.colors)}
+.FollowByEmail form, .FollowByEmail > *{position:relative;z-index:1}
+.FollowByEmail input[type=email]{padding-right:55px}
+.FollowByEmail input[type=email]:focus + input + label svg, .FollowByEmail .follow-by-email-label svg:hover{fill:$(link.colors)}
+.FollowByEmail input[type=submit]{display:none;margin-top:10px}
+
 /* CSS Update
 NguyenLamBlog */
 
