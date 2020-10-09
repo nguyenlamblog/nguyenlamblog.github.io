@@ -56,6 +56,34 @@
 .FollowByEmail input[type=email]:focus + input + label svg, .FollowByEmail .follow-by-email-label svg:hover{fill:$(link.colors)}
 .FollowByEmail input[type=submit]{display:none;margin-top:10px}
 
+/* Background Icon */
+.m-icon{display:inline-block;margin-right:12px;width:18px;height:18px;background-size:cover;background-repeat:no-repeat;background-position:center center;}
+.m-icon.download{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23161617" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M3 17v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"/><polyline points="8 12 12 16 16 12"/><line x1="12" x2="12" y1="2" y2="16"/></svg>')}
+.m-icon.whatsapp{background-image:url("data:image/svg+xml,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path d='M16,3A13,13,0,0,0,4.53,22.13L3,27.74a1,1,0,0,0,.27,1A1,1,0,0,0,4,29a.84.84,0,0,0,.27,0l5.91-1.65a1,1,0,0,0-.53-1.93L5.42,26.56l1.15-4.3a1,1,0,0,0-.1-.76A11,11,0,1,1,16,27a11.23,11.23,0,0,1-1.84-.15,1,1,0,0,0-1.15.82,1,1,0,0,0,.82,1.15A13,13,0,1,0,16,3Z' fill='%23fff'/><path d='M15,11.21l-1.16-1.6a2.06,2.06,0,0,0-1.5-.84,2.08,2.08,0,0,0-1.62.6l-1.2,1.2a2.81,2.81,0,0,0-.8,2.08c0,1.77,1.36,4,4,6.6,3.09,3,5.23,4,6.69,4a2.7,2.7,0,0,0,2-.81l1.2-1.2a2,2,0,0,0-.24-3.11L20.8,17a2.09,2.09,0,0,0-1.83-.3l-1.49.47a.53.53,0,0,1-.26-.09,11.42,11.42,0,0,1-2.35-2.26.31.31,0,0,1,0-.11c.13-.44.35-1.15.5-1.64A2,2,0,0,0,15,11.21Zm1.29,7.63a2.33,2.33,0,0,0,1.75.2l1.54-.46,1.61,1.25L20,21c-.48.47-2.25.33-5.86-3.21-3-2.91-3.41-4.5-3.41-5.18A.89.89,0,0,1,11,12l1.28-1.19,1.18,1.65c-.16.49-.39,1.22-.51,1.65A2.12,2.12,0,0,0,13,15.51,11.24,11.24,0,0,0,16.33,18.84Z' fill='%23fff'/></svg>")}
+
+/* Sample Ads */
+.ads-here{position:relative;display:flex;align-items:stretch;flex-wrap:wrap;min-height:150px;padding:15px;border:1px solid rgba(0,0,0,.05);border-radius:3px;color:#989b9f;font-size:75%}
+.ads-here:after{content:'';display:block;width:50px;height:12px;background-color:rgba(0,0,0,.05);border-radius:0 0 0 8px;position:absolute;top:0;right:0}
+.ads-here .ads-img{width:30%;display:flex;flex-shrink:0;align-items:center;justify-content:center;font-style:normal;background-color:rgba(0,0,0,.05)}
+.ads-here .ads-img:before{content:'Sample ads'}
+.ads-here .ads-content{width:50%;padding:20px 0 0 15px}
+.ads-here .ads-content:before, .ads-here .ads-content:after{content:'';display:block;width:100%;padding-top:30px;background-color:rgba(0,0,0,.05)}
+.ads-here .ads-content:after{width:70%;margin-top:12px;padding-top:20px}
+.ads-here .ads-button{width:20%;display:flex;flex-shrink:0;align-items:center;justify-content:center;}
+.ads-here .ads-button:before{content:'';width:60px;height:60px;border-radius:50%;background-color:rgba(0,0,0,.05)}
+.ads-here.in-article .ads-img{width:100%;min-height:100px;margin-bottom:15px}
+.ads-here.in-article .ads-content{padding:0;width:60%} .ads-here.in-article .ads-button{width:40%;justify-content:flex-end;align-items:flex-end}
+.ads-here.in-article .ads-content:before{padding-top:12px}
+.ads-here.in-article .ads-content:after{padding-top:10px}
+.ads-here.in-article .ads-button:before{width:50px;height:10px;border-radius:0}
+.ads-here.text{padding:15px 0;border-left:0;border-right:0;border-radius:0}
+.ads-here.text .ads-text{display:flex;flex-wrap:wrap;width:100%}
+.ads-here.text .ads-text i{width:calc(50% - 10px);height:27px;margin:5px;border:1px solid rgba(0,0,0,.05);display:flex;align-items:center;position:relative;overflow:hidden;border-radius:15px}
+.ads-here.text .ads-text i:before{content:'';height:8px;width:30%;margin:auto auto;background-color:rgba(0,0,0,.05)}
+.ads-here.text .ads-text i:after{content:'';height:25px;width:30px;background-color:rgba(0,0,0,.05);position:absolute;right:0}
+@media screen and (max-width:768px){ .ads-here .ads-content:before{padding-top:12px} .ads-here .ads-content:after{padding-top:10px} .ads-here .ads-button{align-items:flex-end;justify-content:flex-end} .ads-here .ads-button:before{height:10px;border-radius:0}}
+@media screen and (max-width:640px){.ads-here{min-height:90px}.ads-here .ads-content{padding-top:10px} .ads-here.text .ads-text i{width:100%;margin:5px 0}}
+
 /* CSS Update
 NguyenLamBlog */
 
