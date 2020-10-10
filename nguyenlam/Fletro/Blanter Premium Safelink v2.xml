@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+&lt;head&gt;
+<meta charset='utf-8'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><meta content='width=device-width, initial-scale=1' name='viewport'/><meta content='blogger' name='generator'/><meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/><link expr:href='data:blog.url' rel='canonical'/><b:if cond='data:blog.pageType == &quot;index&quot;'><title><data:blog.pageTitle/></title><b:else/><b:if cond='data:blog.pageType != &quot;error_page&quot;'><title><data:blog.pageName/> - <data:blog.title/></title></b:if></b:if><b:if cond='data:blog.pageType == &quot;error_page&quot;'><title>Page Not Found - <data:blog.title/></title></b:if><b:if cond='data:blog.pageType == &quot;archive&quot;'><meta content='noindex' name='robots'/></b:if><b:if cond='data:blog.searchLabel'><meta content='noindex,nofollow' name='robots'/></b:if><b:if cond='data:blog.isMobile'><meta content='noindex,nofollow' name='robots'/></b:if><b:if cond='data:blog.pageType != &quot;error_page&quot;'><meta expr:content='data:blog.metaDescription' name='description'/><b:if cond='data:blog.homepageUrl != data:blog.url'><meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/></b:if></b:if><b:if cond='data:blog.url == data:blog.homepageUrl'><meta content='xxxxx' name='keywords'/></b:if><link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/><link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/><link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/><b:if cond='data:blog.pageType == &quot;item&quot;'><b:if cond='data:blog.postImageThumbnailUrl'><link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/></b:if></b:if><link href='/favicon.ico' rel='icon' type='image/x-icon'/><link href='https://plus.google.com/xxxxx' rel='me'/><meta content='xxxxx' name='Author'/><meta content='general' name='rating'/><b:if cond='data:blog.url == data:blog.homepageUrl'> <b:if cond='data:blog.pageType == &quot;item&quot;'> <b:if cond='data:blog.pageType == &quot;static_page&quot;'>  <b:if cond='data:blog.url'><meta expr:content='data:blog.url' property='og:url'/></b:if><meta expr:content='data:blog.title' property='og:site_name'/><b:if cond='data:blog.pageName'><meta expr:content='data:blog.pageName' property='og:title'/></b:if></b:if></b:if></b:if><meta expr:content='data:blog.pageTitle' property='og:title'/><b:if cond='data:blog.pageType == &quot;item&quot;'><meta content='article' property='og:type'/><b:else/><meta content='website' property='og:type'/></b:if><meta expr:content='data:blog.canonicalUrl' property='og:url'/><b:if cond='data:blog.postImageUrl'><meta expr:content='data:blog.postImageUrl' property='og:image'/><b:else/><b:if cond='data:blog.postImageThumbnailUrl'><meta expr:content='data:blog.postThumbnailUrl' property='og:image'/><b:else/><meta expr:content='data:blog.blogspotFaviconUrl' property='og:image'/></b:if></b:if><b:if cond='data:blog.metaDescription'><meta expr:content='data:blog.metaDescription' property='og:description'/><b:else/><meta content='xxxxx' property='og:description'/></b:if>
+<b:skin><![CDATA[
+/*
+Safelink Blogger Template Style
+Template Name  : Blanter Material Design v2.0
+Template Date  : 19 August 2018
+Designer       : Rhinokage Rio
+Designer URL   : http://www.idblanter.com
+Theme License  : Premium
+*/
+#h237 *,.breadcrumbs a span,.breadcrumbs a:hover,a:hover,a:link,a:visited{text-decoration:none}article,aside,body,details,figcaption,figure,footer,header,hgroup,html,menu,nav,section{display:block}a:link,a:visited{color:#444}*,.section,.widget,body{margin:0}#download:hover,#header-wrapper,#safe-wrapper,#safe-wrapper button:hover,a.btn-donate:hover{box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}#safe-wrapper input:focus,.input-field input:focus,a img,a:link{outline:0}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}small,sub,sup{font-size:86%}.linkresult,b,dt,strong{font-weight:700}body{line-height:1}*{padding:0}#backlinks-container,.blog-feeds,.feed-links,.navbar,.quickedit{display:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}cite,em,i{font-style:italic}a:link{transition:all .5s;-moz-transition:all .5s;-webkit-transition:all .5s}a:hover{color:#4d90fe}a img{border:none;border-width:0}abbr,acronym{cursor:help}sub,sup{vertical-align:baseline;position:relative;top:-.4em}sub{top:.4em}kbd kbd{font-size:80%;border:1px solid #999;padding:2px 5px;border-bottom-width:2px;border-radius:3px}#wrapper img.imgloaded{background:#fff}.linkresult{font-size:13px;border:2px solid #2ecc71;padding:10px;border-radius:5px;background:#fff;color:#2ecc71}body{background:#f5f5f5}mark{background-color:#ffce00;color:#000}blockquote,dl,figure,form,hr,ol,p,pre,table,ul{margin:1.5em 0}hr{height:1px;border:none;background-color:#666}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;margin:0 0 .6em}h1{font-size:200%}h2{font-size:180%}h3{font-size:160%}h4{font-size:140%}h5{font-size:120%}h6{font-size:100%}dl,ol,ul{margin:.5em 0 .5em 3em}ol{list-style:decimal}ul{list-style:disc}li{margin:.5em 0}dd{margin:0 0 .5em 2em}button,input,select,textarea{font:inherit;font-size:100%;line-height:normal;vertical-align:baseline}textarea{display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}code,pre{font-family:&quot;color:inherit}pre{white-space:pre;word-wrap:normal;overflow:auto}.post-body img{max-width:100%;height:auto}.post-body .separator img{max-width:92%;height:auto}img,table{max-width:100%}table{border-collapse:collapse;border-spacing:0}#wrapper,.wrapper{max-width:1150px;margin:0 auto}.clear{clear:both}.clear:after{visibility:hidden;display:block;font-size:0;content:" ";font-family:'Open Sans',Roboto,Arial,sans-serif;clear:both;height:0}.banner728-bottom h2,.banner728-top h2,.header img,.input-pass{display:none}body{padding:0;color:#555;text-align:left;font-family:Roboto,Open Sans,Arial,sans-serif}#footer-menu,#footer-wrapper,#h237 *,#h237 a,#i-donate,.header,.naminasi,h1.post-title{text-align:center}#wrapper{padding:15px}.wrapper{padding:0}#kredit{font-size:14px;color:#777;background:#fff;padding:30px 20px;margin:0 auto;overflow:hidden}.md-duniablanter a{margin:0 12px}.k-left{float:left;line-height:1.7;font-size:13.3px}.k-right{float:right;line-height:2.3}ins.adsbygoogle{background:url(https://2.bp.blogspot.com/-Ul1MQ9YK_k4/WXNbIt-XIXI/AAAAAAAAGzc/bKu4ll-o6poUc51r2P-XM83VpryH_5ABgCLcBGAs/s100/mduiloader.gif) 50% no-repeat #fff;background-size:80px}#wrapper img{background:url(https://2.bp.blogspot.com/-Ul1MQ9YK_k4/WXNbIt-XIXI/AAAAAAAAGzc/bKu4ll-o6poUc51r2P-XM83VpryH_5ABgCLcBGAs/s100/mduiloader.gif) 50% no-repeat #fff}#kredit a{color:#777;transition:all .1s ease-in-out}#kredit a:hover{color:#222}.matilampu{position:fixed;top:0;background:rgba(0,0,0,.59);left:0;right:0;bottom:0;margin:0;z-index:97;transition:all .4s ease-in-out}.header{margin-top:45px;padding:0 0 10px}.header img{max-width:250px;height:auto;margin:0 auto}.description span{color:rgba(255, 255, 255, 0.71);line-height:1.5;font-size:13px}.header h1.title,.header p.title{font-family:Roboto,sans-serif;font-size:25px}.header .description{color:#444;margin:.5em 0 0;font-family:'Open Sans',sans-serif;font-size:12px}.header a{color:#fff;font-weight:700}.well-done,a.waves-light.close-sf{font-size:14px;color:#fff}#blantersafelink,.blanternotif,.suksescopy{transition:all .3s ease-in-out}#blantersafelink,.blanternotif,.matilampu{visibility:hidden;opacity:0}#blantersafelink,.blanternotif{background:#f5f5f5;position:fixed;padding:25px;top:15%;max-width:450px;left:35%;z-index:99;border-radius:4px;box-shadow:0 9px 46px 8px rgba(0,0,0,.14),0 11px 15px -7px rgba(0,0,0,.12),0 24px 38px 3px rgba(0,0,0,.2)}#blantersafelink button,.blanternotif button{border:none;position:absolute;margin-top:17px;right:30px;cursor:pointer;background:#e8e8e8;padding-left:7px;outline:0}.blantertitle{margin-bottom:15px}.blanternotif.aktif,#blantersafelink.aktif,.matilampu.aktif{visibility:visible;opacity:1}.blanternotif.aktif,#blantersafelink.aktif{top:20%}.header a:hover{color:#fff}.banner728-bottom,.banner728-top{padding:0 18px}.banner728-top .widget-content{margin:6px 0 0;max-width:728px;overflow:hidden}.banner728-bottom .widget-content{margin:6px 0;max-width:728px;overflow:hidden}#content-wrapper{position:relative;margin:0 auto;padding:0 18px;overflow:hidden;word-wrap:break-word}#post-wrapper{float:left;width:100%}.img-thumb,.img-thumb img{width:140px;height:110px}#h237 a,#h237 span{background:#c62828;color:#fff}#h237 *,#h237:hover a{display:block}#h237 a,#h237,.breadcrumbs{display:none}#h237 span{border-bottom:4px solid #8e0000;line-height:1.6;font-size:13px;padding:15px;font-weight:700;position:fixed;z-index:99;top:0;right:0;left:0;font-family:Roboto;letter-spacing:1px}#h237 a{position:absolute;left:10px;top:5px;right:10px;padding:20px}#h237 *{margin:0 auto;filter:none;font:700 14px Verdana,Arial,sans-serif}.post-container{margin:0;max-width:100%}.breadcrumbs{font-size:13px;padding:5px;color:#333;position:relative;margin-bottom:15px;font-family:Roboto,sans-serif}.breadcrumbs a span{color:#333;font-weight:400;padding:0 2px;font-size:13px}.breadcrumbs span{font-weight:Bold;font-size:13px}.breadcrumbs a:hover{color:#07ACEC;padding:0}h1.post-title,h2.post-title{font-family:'Open Sans',sans-serif;font-size:15px}.post-info,h1.post-title{font-family:Roboto,sans-serif}h1.post-title{margin-bottom:30px;font-size:22px;font-weight:400}h1.post-title,h1.post-title a,h2.post-title,h2.post-title a{color:#1976d2}h1.post-title a:hover,h2.post-title a:hover{color:#4d90fe}.post-info,.post-info a{color:#777}.img-thumb{background:#fff;float:left;margin:0 10px 5px 0}.post-info{font-size:12px;position:absolute;left:140px;width:300px;padding:5px 10px;bottom:0}.waves-effect{position:relative;cursor:pointer;display:inline-block;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;vertical-align:middle;z-index:1;will-change:opacity,transform;-webkit-transition:all .3s ease-out;-moz-transition:all .2s ease-out;-o-transition:all .2s ease-out;-ms-transition:all .2s ease-out;transition:all .2s ease-out}.waves-effect .waves-ripple{position:absolute;border-radius:50%;width:20px;height:20px;margin-top:-10px;margin-left:-10px;opacity:0;background:rgba(0,0,0,.2);-webkit-transition:all .1s ease-out;-moz-transition:all .1s ease-out;-o-transition:all .1s ease-out;-ms-transition:all .1s ease-out;transition:all .1s ease-out;-webkit-transition-property:-webkit-transform,opacity;-moz-transition-property:-moz-transform,opacity;-o-transition-property:-o-transform,opacity;transition-property:transform,opacity;-webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);-o-transform:scale(0);transform:scale(0);pointer-events:none}.icx{position:absolute;top:10px;right:10px;border-radius:100%;width:30px;height:30px}.icx i{padding:3px}.icx:hover{color:#222}.waves-effect.waves-light .waves-ripple{background-color:rgba(255,255,255,.45)}.post-info-icon{float:left;padding:5px}.infopost{margin:0;padding:0}.postheader{margin-top:20px;padding:0;overflow:hidden}.postinfo{display:none}.status-msg-body{background:#F44336;color:#fff;border:1px solid #E91E63;font-size:15px;padding:10px}#header-wrapper{background:#1976d2;color:#fff;height:300px;padding:0;margin:0 0 10px}.header-wrap{overflow:hidden;margin:0 auto;position:relative;width:1050px;max-width:100%;display:block}.dropdowns{background:#004ba0;font:400 14px Roboto,Arial,sans-serif;line-height:42px;float:right;width:100%}.nav-menu2,.nav-menu2>li{float:left}.toggleMenu{display:none;padding:0 15px;height:40px;margin:5px 0;line-height:3.6;color:#fff!important}.nav-menu2{list-style:none;margin:0;padding:0}.nav-menu2:after,.nav-menu2:before{content:" ";display:table}.nav-menu2 li{position:relative;margin:0}.nav-menu2>li>a:hover{border-color:#fff}.nav-menu2>li>a{display:block;margin:0;height:50px;line-height:51px;border-bottom:2px solid #004ba0;color:#fff;font-size:13px;font-weight:700}.nav-menu2 a{display:block;padding:0 15px;transition:all .2s ease-in-out}.header{padding:0 10px}.adsbanner1{margin-bottom:15px}#footer-wrapper{background:#333;margin:0 auto;padding:12px 18px;font-size:12px;overflow:hidden;color:#fff;font-family:Roboto,Arial;border-top:1px solid #555}#footer-wrapper a{color:#fff}#footer-wrapper a:hover{color:#4d90fe}#footer-menu{background:#444;padding:20px 0;border-top:3px solid #4d90fe;overflow:hidden}#footer-menu a{color:#fff;font-family:Roboto,sans-serif;font-size:14px;padding:8px;margin:5px}#footer-menu a:hover{background:#4d90fe;border-radius:10px}.tinynav{background:#fff;display:none;margin:4px 0 4px 18px;padding:6px;border:none}.tinynav option{padding:0 4px}@media only screen and (max-width:768px){.blanternotif,#blantersafelink{left:10%;right:10%}.dropdowns{position:absolute;z-index:99}.toggleMenu{display:block}.nav-menu2{display:none}#form-wrapper{margin-top:40px}#menu,.nav-menu2 li{width:100%}#menu ul,.post-info{display:none}.banner468-header,.header{float:none;max-width:100%}.header{margin:70px 0 12px}#menu{position:relative;margin:0}#menu ul{background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto}#menu ul.menus{width:100%;position:static;padding-left:20px}#menu li{display:block;float:none;width:auto}#menu li:hover>ul{width:100%;-webkit-padding-start:0}#menu input,#menu label{position:absolute;top:0;left:0;display:block}#menu input{z-index:4}#menu input:checked+label{color:#fff}#menu input:checked~ul{display:block;width:100%}}@media only screen and (max-width:640px){.fitur-wrap{width:100%!important;margin-bottom:10px}.tinynav{display:inline-block}#footer-menu a{float:left;width:90%}.share-post{width:100%}.share-post div{float:none}.share-post{padding:14px}}.bar,.input-field input{display:block;width:100%}@media only screen and (max-width:480px){#footer-wrapper,.banner468-header,.header{text-align:center}#content-wrapper{padding:0 10px}#post-wrapper,#sidebar-wrapper{width:100%;max-width:100%;float:none;margin:12px 0}.post-container{margin:0}#nav ul#menu{margin:0 0 0 10px}#search-form{margin:0 10px 0 0}#footer-wrapper{padding:12px 10px}.footer-left,.footer-right{float:none}.tinynav{margin:3px 0 3px 10px}}@media screen and (max-width:320px){.img-thumb,.img-thumb img{width:70px;height:70px}.img-thumb{margin:0 6px 3px 0}#search-form input#search-box[type=text]{width:80px}}.navi-left a.fbc:hover{background:#5C82D0}.navi-left a.twc:hover{background:#40BFF4}.navi-left a.gpc:hover{background:#EA5D4B}.navi-left a.jnc:hover{background:#47C728}#i-donate{margin-top:20px}a.notif-z:hover{color:#000!important;background:#fff!important}#safe-wrapper{border-radius:30px;width:auto;margin:-110px auto 0;max-width:900px;padding:25px;background:#fff}.input-field{position:relative;margin:15px 0}.input-field input{font-size:15px;padding:15px 0;border:none;border-bottom:1px solid #ddd}.input-field label{color:#999;font-size:14px;font-weight:400;position:absolute;pointer-events:none;left:0;top:18px;transition:.2s ease all}.bar{position:relative}.bar:after,.bar:before{content:'';height:2.2px;width:0;bottom:0;position:absolute;background:#1976d2;transition:.2s ease all}.bar:before{left:50%}.bar:after{right:50%}.input-field input:focus~.bar:after,.input-field input:focus~.bar:before,.input-field input:valid~.bar:after,.input-field input:valid~.bar:before{width:50%}.highlight{position:absolute;height:50%;width:100px;top:25%;left:0;pointer-events:none;opacity:.5}.input-field input:focus~.highlight{animation:inputHighlighter .3s ease}.input-field input:focus~label,.input-field input:valid~label{top:-20px;font-size:13px;color:#1976d2}a.btn-donate i{margin-right:7px;float:left;font-size:20px;line-height:.9}.btn-pass i,.btn-safe i,.input-field i{font-size:17px;float:left;margin-right:8px}#download,#safe-wrapper button,.input-field button,a.btn-donate,a.gorecent{text-transform:uppercase;line-height:1.5;font-size:13px;font-weight:700;color:#fff;border:none;padding:12px 15px 10px;border-radius:5px;background:#1976d2;cursor:pointer;outline:0;box-shadow:0 2px 2px 0 rgba(154,154,154,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.12);margin-right:7px}#form-wrapper{margin-bottom:0}#safe-result{padding:10px;font-size:13px;color:#fff}#features{border-top:1px solid #ddd;overflow:hidden}.fitur-wrap{float:left;margin-right:10px;width:49.5%;max-width:100%;background:#fff;box-shadow:0 0 2px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.24);border-radius:3px}.fitur-heading{padding:0 0 15px;font-size:14px;font-weight:700;text-align:left;text-transform:uppercase}.fitur-body{min-height:145px;font-size:13px;padding:20px;line-height:1.6;color:#555}.fitur-wrap:nth-child(2){margin:0}#yupi48{margin-top:10px;padding:10px 0;font-size:13px}.tak1 span{float:left}#yupi48 h3{font-size:14px;font-weight:700;margin:0}.tak1,tak2{width:100%;max-width:200px}.tak1{float:none;padding-bottom:10px}.nb1{margin-left:240px}.tak2{float:right;margin-right:70px}@media screen and (max-width:640px){#main-nav,.k-right,.navi-left,.notif-z,.poblog,.recentpostel p{display:none}.recentpostel img{width:40px!important;height:40px!important}#wrapper{margin:0 auto;padding:10px;width:87%}#top-navbar{position:fixed;margin:0}#safe-wrapper input{width:90%}#main-nav{transition:all 1s ease-in-out;background:#444;z-index:99;position:fixed;top:46px;left:0;right:0;margin:0!important;border-bottom:1px solid #222}.navi-right a{color:#fff}#main-nav li{float:none;padding-left:20px}#show-nav{display:block}#yupi48{padding:0}}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v16/77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v16/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v16/UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v16/jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v16/PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v16/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v16/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(https://fonts.gstatic.com/s/roboto/v16/WxrXJa0C3KdtC7lMafG4dRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(https://fonts.gstatic.com/s/roboto/v16/OpXUqTo0UgQQhGj_SFdLWBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(https://fonts.gstatic.com/s/roboto/v16/1hZf02POANh32k2VkgEoUBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(https://fonts.gstatic.com/s/roboto/v16/cDKhRaXnQTOVbaoxwdOr9xTbgVql8nDJpwnrE27mub0.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(https://fonts.gstatic.com/s/roboto/v16/K23cxWVTrIFD6DJsEVi07RTbgVql8nDJpwnrE27mub0.woff2) format('woff2');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(https://fonts.gstatic.com/s/roboto/v16/vSzulfKSK0LLjjfeaxcREhTbgVql8nDJpwnrE27mub0.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(https://fonts.gstatic.com/s/roboto/v16/vPcynSL0qHq_6dX7lKVByfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:local('Material Icons'),local('MaterialIcons-Regular'),url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2')}.material-icons{font-family:'Material Icons';font-weight:400;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased}
+]]></b:skin><b:template-skin>
+<![CDATA[
+body#layout div.section{background:transparent;margin:0 0 15px;line-height:4;padding:0;border:none;box-sizing:border-box}body#layout .section h4{display:none}body#layout .widget-content{margin-top:0}body#layout #header-wrapper,body#layout #content-wrapper{padding:0}body#layout #nav{display:none}body#layout ul{list-style:none}body#layout{background:#111;border-color:#444;color:#fff}body#layout .add_widget{background:#333;border:1px solid #444}body#layout a,body#layout a:visited{color:#fff}body#layout .draggable-widget .widget-wrap2{background:#fff}body#layout .draggable-widget .widget-wrap3,body#layout .locked-widget .widget-content{background:#222}body#layout .widget-content{border-color:#444;color:#fff}body#layout .widget-content:hover{background:#333}body#layout a.editlink{color:#222!important;background:#fff;font-weight:700;padding:5px 10px}body#layout:before{content:'+ IDB-SAFELINK';font-weight:bold;font-size:15px;font-family:'Arial';position:absolute;margin:0;right:25px;top:20px}body#layout:after{content:'Design By IDBLANTER.COM';font-weight:bold;font-size:11px;font-family:'Arial';position:absolute;margin:0;right:10px;top:40px}body#layout #banner728-bottom:before{content:'Bottom Ads Wrapper'}body#layout #main:before{content:'Post Wrapper'}body#layout #adscenter:before{content:'Center Ads Wrapper'}body#layout #feature:before{content:'Feature Widget'}body#layout #wrap-postingan:before{content:'Recent Post'}body#layout #banner-bottom:before{content:'Banner Ads Wrapper'}body#layout .section:before{content:'';font-size:14px;text-transform:uppercase;text-align:center;color:#fff;font-weight:bold}body#layout #banner728-top:before{content:'Top Ads Wrapper'}body#layout #wrap-postingan{width:50%;float:left}body#layout #feature{width:48%;float:right}
+]]></b:template-skin><b:if cond='data:blog.pageType == &quot;index&quot;'><style type='text/css'>.howtouse,.recenthd,.title_post,.well-done{text-align:center}.howtouse h3,.recenthd,a.waves-light.close-sf{text-transform:uppercase}.howtouse:nth-child(4){margin-right:0}.howtouse p{font-size:13px;line-height:1.4}.howtouse{border-radius:2px;box-shadow:0 0 2px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.24);background:#fff;padding:20px;margin:4px 10px 4px 0;width:240px;float:left;height:190px}.howtouse h3{margin-top:15px;font-size:18px}.howtouse i{transition:all .3s ease-in-out;font-size:40px;background:#1976d2;color:#fff;padding:20px;border-radius:100%}li.recent-posts:hover{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14), 0 5px 10px 0 rgba(0,0,0,0.12), 0 5px 10px -5px rgba(0,0,0,0.2)}.recenthd,li.recent-posts{box-shadow:0 0 2px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.24);background:#fff;border-radius:3px;overflow:hidden}a.gorecent{float:right;font-size:11px;padding:5px 10px;margin:-4px}.recenthd h2{display:inline-block;font-size:17px;margin:0}.recenthd{padding:15px;margin-bottom:10px}ul#recent-posts{margin:0;padding:0}li.recent-posts:nth-child(12),li.recent-posts:nth-child(4),li.recent-posts:nth-child(8){margin-right:0}li.recent-posts{transition:all .3s ease-in-out;list-style:none;width:272px;max-width:100%;float:left;height:260px;margin-right:20px}.title_post a{color:#515151}li.recent-posts a:hover{color:#111}.title_post{height:30px;overflow:hidden;padding:10px;line-height:1.4;font-size:13.4px}.recent-posts img{height:190px;width:100%}#blantersafelink input{background:#e8e8e8;border:0;padding:10px;width:95%;float:left;border-radius:4px;font-size:14px;margin:10px 0 30px}.well-done{background:#01a201;overflow:hidden;padding:10px;border-radius:4px}.howtouse:hover i{transform:scale(1.1)}a.waves-light.close-sf{background:#1976d2;margin-top:15px;display:inline-block;padding:10px 13px;border-radius:3px;box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);float:right}.suksescopy{position:fixed;z-index:98;top:70px;background:#222;color:#fff;box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);padding:15px;font-size:15px;right:-200px;line-height:1.6;border-radius:5px}.suksescopy i{float:left;margin-right:10px;color:#0dc90d}.suksescopy.aktif{right:0}#post-wrapper{display:none}.post-body{font-size:12px;font-family:&#39;Open Sans&#39;,sans-serif}.adsbanner1 .widget,.adsbanner2 .widget,.adsbanner3 .widget,.postingan .widget{background:#fff;box-shadow:0 0 2px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.24);border-radius:3px}.adsbanner1 .widget,.adsbanner2 .widget,.adsbanner3 .widget{padding:7px;margin-top:10px}@media screen and (max-width:768px){.howtouse{width:39%}#safe-wrapper{width:auto;padding:18px;margin:-100px 0 0}li.recent-posts{width:45.6%}}}@media screen and (max-width:680px){.fitur-wrap{width:100%;margin:0 0 7px}}@media screen and (max-width:480px){#safe-wrapper button{width:100%;margin:10px 0 0}a.btn-donate{margin:5px 0;width:80%}.howtouse{width:88%}li.recent-posts{width:100%}}</style></b:if><b:if cond='data:blog.pageType != &quot;index&quot;'><style type='text/css'>.share-post{text-align:left;width:180px;margin:0 auto;padding:14px 0}.widget .post-body &gt; .share-post ul{padding:0}.share-post li{float:left;margin:0;padding:0;list-style:none;position:relative}.share-post li a{box-shadow:0 2px 5px rgba(0,0,0,0.19),0 2px 2px rgba(0,0,0,0.23);border-radius:100%;margin-right:10px;width:50px;height:50px;transition:all .4s ease-out}.share-post li a:hover{box-shadow:0 12px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)}.share-post li .twitter{background:#2ca8d2 url(https://2.bp.blogspot.com/-J30Dh86OpRc/WKREObMueVI/AAAAAAAAFiU/D_SOT8LA3zYdbs8vtW1tr5W5O3EWn8dXgCLcB/s1600/Twitter.png)no-repeat -2px -2px;background-size:55px}.share-post li .facebook{background:#305891 url(https://1.bp.blogspot.com/-RwuLgljr7Lg/WKRENvDeTUI/AAAAAAAAFiM/bU5yQGmar4cDBD6CplUNDuSow2mJoXaOACLcB/s1600/Facebook.png)no-repeat -3px;background-size:55px}.share-post li .gplus{background:#ce4d39 url(https://1.bp.blogspot.com/-jyh8POYM5RE/WKRENu059SI/AAAAAAAAFiI/Jm4Nr1jzHWUMGVrGafIYligZCBbUWuD4QCLcB/s1600/GooglePlus.png)no-repeat -2px;background-size:55px}.share-post li:last-child{margin-right:0}.spanshare{color:#444;font-family:&#39;Roboto&#39;,sans-serif;text-align:center;font-size:14px;text-transform:uppercase;margin-top:18px;margin-right:15px;margin-left:10px;font-weight:400}.post-body{font-size:14px;line-height:1.5}.sfkiri{float:left}.sfkanan{float:right}#safelink-wrapper{font-weight:700;padding:10px;width:100%;max-width:450px}.blanterx1{text-align:center}.adsense-kotak-kiri{padding-right:10px;float:left}.adsense-kotak-kanan{margin-left:10px;float:right}#wrongpass{display:inline-block;margin:10px 0;color:#fff;font-size:12px;padding:10px 15px;background:#d50000;border-bottom:2px solid #9b0000;border-radius:4px}.post{background:#fff;border-radius:2px;box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.2);padding:20px;margin:0 0 20px}.show{display:block}#comments,.hide{display:none!important}#content-wrapper{margin-top:-70px!important}@media screen and (max-width:768px){#wrapper{width:92%}#content-wrapper{padding:0}}</style></b:if>
+&lt;/head&gt;&lt;!--<head/>--&gt;
+<body itemscope='itemscope' itemtype='http://schema.org/WebPage' oncontextmenu='return false;'>
+<div itemprop='mainContentOfPage' itemscope='itemscope' itemtype='https://schema.org/WebPageElement'><header id='header-wrapper'><nav class='dropdowns' itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'><div class='header-wrap'><a class='toggleMenu' href='#'><i class='material-icons'>&#58834;</i></a><ul class='nav nav-menu2'>
+<li><a class='waves-effect waves-light' href='/' title='Home'><span itemprop='name'>Home</span></a></li>
+<li><a class='waves-effect waves-light notifhtu' href='#' itemprop='url' title='How To Use'><span itemprop='name'>How To Use</span></a></li>
+<li><a class='waves-effect waves-light' href='#' itemprop='url' title='What is Safelink'><span itemprop='name'>What is Safelink?</span></a></li>
+<li><a class='waves-effect waves-light' href='/p/about.html' itemprop='url' title='About Us'><span itemprop='name'>About Us</span></a></li>
+<li><a class='waves-effect waves-light' href='/p/contact.html' itemprop='url' title='Contact Us'><span itemprop='name'>Contact Us</span></a></li>
+<li><a class='waves-effect waves-light' href='/p/tos.html' itemprop='url' title='Terms Of Service'><span itemprop='name'>Terms Of Service</span></a></li>
+<li><a class='waves-effect waves-light' href='/p/ads.html' itemprop='url' title='Advertisement'><span itemprop='name'>Advertisement</span></a></li>
+<li><a class='waves-effect waves-light' href='/p/privacy.html' itemprop='url' title='Feature'><span itemprop='name'>Privacy</span></a></li>
+<li><a class='waves-effect waves-light' href='/p/contact.html' itemprop='url' title='Report an Error'><span itemprop='name'>Report an Error</span></a></li>
+<li><a class='waves-effect waves-light' href='#' itemprop='url' title='Feature'><span itemprop='name'>Feature</span></a></li>
+</ul></div></nav><div class='clear'/><div class='header-wrap'>
+<b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
+  <b:widget id='Header1' locked='true' title='Blanter Material Design Safelink (Header)' type='Header' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='displayUrl'/>
+      <b:widget-setting name='displayHeight'>0</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+      <b:widget-setting name='useImage'>false</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+      <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+      <b:widget-setting name='displayWidth'>0</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+<b:if cond='data:useImage'>
+<b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+<b:if cond='data:mobile'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title' itemprop='headline'>
+<b:include name='title'/>
+</h1>
+</div>
+<b:include name='description'/>
+</div>
+<b:else/>
+</b:if>
+<b:else/>
+<div id='header-inner'>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<h1><b:include name='title'/></h1>
+</b:if>
+</b:if>
+<a expr:href='data:blog.homepageUrl'>
+<img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+</a>
+<b:if cond='data:imagePlacement == &quot;description&quot;'>
+<b:include name='description'/>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<h1 itemprop='headline'><b:include name='title'/></h1>
+</b:if>
+</b:if>
+</b:if>
+</div>
+</b:if>
+<b:else/>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<p class='title' itemprop='headline'><b:include name='title'/></p>
+<b:else/>
+<h1 class='title' itemprop='headline'><b:include name='title'/></h1>
+</b:if>
+<b:else/>
+<p class='title' itemprop='headline'><b:include name='title'/></p>
+</b:if>
+<b:include name='description'/>
+</div>
+</div>
+</b:if>
+</b:includable>
+    <b:includable id='description'>
+<div class='descriptionwrapper'>
+<p class='description' itemprop='description'><span><data:description/></span></p>
+</div>
+</b:includable>
+    <b:includable id='title'>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<data:title/>
+<b:else/>
+<a expr:href='data:blog.homepageUrl' expr:title='data:title' itemprop='url'><span itemprop='name'><data:title/></span></a>
+</b:if>
+</b:includable>
+  </b:widget>
+</b:section>
+<div class='clear'/></div></header><div class='clear'/><b:if cond='data:blog.pageType == &quot;index&quot;'><div id='safe-wrapper'><div class='naminasi'>Convert Your Link Here!</div><div class='frm1' id='form-wrapper'><div class='input-field'><input class='md-inputblanter' id='inputURL' required='required' type='url' value=''/><span class='highlight'/><span class='bar'/><label>Your Original URL with http:// or https://</label></div><br/><div class='input-field input-pass'><input id='pass' name='pass' required='required' type='text' value=''/><span class='highlight'/><span class='bar'/><label>Enter password or leave blank</label></div><span class='input-group-btn' id='safelink-wrapper'><center><button class='waves-effect waves-light btn-safe' data-target='#blantersafelink' data-toggle='collapse' type='button'><i class='material-icons'>&#59624;</i><strong>Safe Link Now</strong></button><button class='waves-effect waves-light btn-pass' type='button'><i class='material-icons'>&#59543;</i><strong>Lock</strong></button></center></span></div></div><div id='blantersafelink'><div class='blantertitle'>Your Safelink Result</div><input class='form-control' id='resultLink' onclick='this.focus();this.select()' readonly='readonly' required='required' type='text'/><button class='btn button-link btn-sm btn-success' data-clipboard-action='copy' data-clipboard-target='#resultLink' data-target='#blantersafelink' id='btnCopy' title='Copy Safelink URL' type='submit'><strong><i class='material-icons'>&#57677;</i></strong></button><div class='well-done'><strong>Well done!</strong> you have successfully encrypted your link.</div><a class='waves-effect waves-light close-sf' href='javascript:;' title='Done'>Done</a><a class='waves-effect icx close-sf' href='javascript:;'><i class='material-icons'>&#58829;</i></a></div></b:if><div id='wrapper'><b:if cond='data:blog.pageType == &quot;index&quot;'><div id='trix'><div class='howtouse'><i class='material-icons'>&#59624;</i><h3>Generate</h3><p>Generate Your Link with http:// or https://</p></div><div class='howtouse'><i class='material-icons'>&#59543;</i><h3>Lock</h3><p>Lock Your Private URL with Password</p></div><div class='howtouse'><i class='material-icons'>&#59621;</i><h3>Analytics</h3><p>Analytics Your Click and Views</p></div><div class='howtouse'><i class='material-icons'>&#57895;</i><h3>Earn</h3><p>Get Money From Your Ads</p></div></div><div class='clear'/>
+  <b:section class='adsbanner1' id='adsbanner1' showaddelement='yes'/>
+<div class='clear'/><div id='xtitlex'/><ul id='recent-posts'/><div class='clear'/>
+  <b:section class='adsbanner2' id='adsbanner2' showaddelement='yes'/>
+<div id='yupi48'><div class='fitur-wrap'><div class='fitur-body'><h3 class='fitur-heading'>About This Safelink</h3>Safelink is the fastest and easiest way to monetize the traffic you have, and, what&#39;s the most important, to make your life easier and your monthly income higher than ever!</div></div><div class='fitur-wrap'><div class='fitur-body'><h3 class='fitur-heading'>Donate</h3>Whether you need a new script, daily withdrawals or want to adjust an intermediate page to your needs - Safelink can and will do it all for you!<br/><div id='i-donate'><a class='waves-effect waves-light btn-donate' href='#' rel='nofollow' target='_blank' title='Donate'><i class='material-icons'>&#57895;</i> Donate</a><a class='waves-effect waves-light btn-donate' href='#' rel='nofollow' target='_blank' title='Bitcoin'><i class='material-icons'>&#57955;</i> Bitcoin</a><a class='waves-effect waves-light btn-donate' href='#' rel='nofollow' target='_blank' title='Paypal'><i class='material-icons'>&#59553;</i> Paypal</a></div></div></div><div class='clear'/></div></b:if>
+<b:section class='adsbanner3' id='adsbanner3' showaddelement='yes'/>
+<div id='content-wrapper'><b:if cond='data:blog.pageType != &quot;index&quot;'><div id='post-wrapper' itemscope='itemscope' itemtype='http://schema.org/Blog'><div class='post-container'>
+  <b:section class='main' id='main' showaddelement='no'>
+    <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog' version='1'>
+      <b:widget-settings>
+        <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+        <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+        <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+        <b:widget-setting name='authorLabel'>By</b:widget-setting>
+        <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+        <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+        <b:widget-setting name='showAuthor'>true</b:widget-setting>
+        <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+        <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+        <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+        <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+        <b:widget-setting name='showLabels'>true</b:widget-setting>
+        <b:widget-setting name='showLocation'>true</b:widget-setting>
+        <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+        <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+        <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+        <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+        <b:widget-setting name='showReactions'>false</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main' var='top'>
+	  <b:include data='posts' name='breadcrumb'/>
+  <b:if cond='data:mobile == &quot;false&quot;'>
+    <div class='blog-posts hfeed'>
+      <b:include data='top' name='status-message'/>
+      <data:defaultAdStart/>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.isDateStart'>
+          <b:if cond='data:post.isFirstPost == &quot;false&quot;'>
+            &lt;/div&gt;&lt;/div&gt;
+          </b:if>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-outer&quot;&gt;
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-posts&quot;&gt;
+        </b:if>
+        <div class='post-outer'>
+        <b:include data='post' name='post'/>
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        </div>
+        <b:if cond='data:post.includeAd'>
+          <b:if cond='data:post.isFirstPost'>
+            <data:defaultAdEnd/>
+          <b:else/>
+            <data:adEnd/>
+          </b:if>
+          <div class='inline-ad'>
+            <data:adCode/>
+          </div>
+          <data:adStart/>
+        </b:if>
+      </b:loop>
+      <b:if cond='data:numPosts != 0'>
+        &lt;/div&gt;&lt;/div&gt;
+      </b:if>
+      <data:adEnd/>
+    </div>
+
+    <!-- navigation -->
+	<b:include name='nextprev'/>
+    
+
+    <!-- feed links -->
+    <b:include name='feedLinks'/>
+
+    <b:if cond='data:top.showStars'>
+      <script src='//www.google.com/jsapi' type='text/javascript'/>
+      <script type='text/javascript'>
+        google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
+        function initialize() {
+          google.annotations.setApplicationId(<data:top.blogspotReviews/>);
+          google.annotations.createAll();
+          google.annotations.fetch();
+        }
+        google.setOnLoadCallback(initialize);
+      </script>
+    </b:if>
+
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+
+  <b:if cond='data:top.showDummy'>
+    <data:top.dummyBootstrap/>
+  </b:if>
+
+</b:includable>
+      <b:includable id='backlinkDeleteIcon' var='backlink'/>
+      <b:includable id='backlinks' var='post'>
+  <a name='links'/><h4><data:post.backlinksLabel/></h4>
+  <b:if cond='data:post.numBacklinks != 0'>
+    <dl class='comments-block' id='comments-block'>
+      <b:loop values='data:post.backlinks' var='backlink'>
+        <div class='collapsed-backlink backlink-control'>
+          <dt class='comment-title'>
+            <span class='backlink-toggle-zippy'>&#160;</span>
+            <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
+            <b:include data='backlink' name='backlinkDeleteIcon'/>
+          </dt>
+          <dd class='comment-body collapseable'>
+            <data:backlink.snippet/>
+          </dd>
+          <dd class='comment-footer collapseable'>
+            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+          </dd>
+        </div>
+      </b:loop>
+    </dl>
+  </b:if>
+  <p class='comment-footer'>
+    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
+  </p>
+</b:includable>
+      <b:includable id='breadcrumb' var='posts'>
+<b:if cond='data:blog.homepageUrl != data:blog.url'>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<div class='breadcrumbs'><span><a expr:href='data:blog.homepageUrl' rel='tag'><i class='fa fa-home'/> Home</a></span> &#8250; <span><data:blog.pageName/></span></div>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<!-- breadcrumb for the post page -->
+<b:loop values='data:posts' var='post'>
+<b:if cond='data:post.labels'>
+<div class='breadcrumbs' id='breadcrumbs'>
+<span itemscope='' itemtype='http://data-vocabulary.org/Breadcrumb'><a expr:href='data:blog.homepageUrl' itemprop='url' title='Home'><span itemprop='title'><i class='fa fa-home'/> Home</span></a></span>
+<b:loop values='data:post.labels' var='label'>
+&#8250; <span itemscope='' itemtype='http://data-vocabulary.org/Breadcrumb'><a expr:href='data:label.url' expr:title='data:label.name' itemprop='url'><span itemprop='title'><data:label.name/></span></a></span>
+</b:loop>
+&#8250; <span><data:post.title/></span>
+</div>
+<b:else/>
+<div class='breadcrumbs'><span><a expr:href='data:blog.homepageUrl' rel='tag' title='Home'><i class='fa fa-home'/> Home</a></span> &#8250; <span>Unlabelled</span> &#8250; <span><data:post.title/></span></div>
+</b:if>
+</b:loop>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+<!-- breadcrumb for the label archive page and search pages.. -->
+<div class='breadcrumbs'>
+<span><a expr:href='data:blog.homepageUrl' title='Home'><i class='fa fa-home'/> Home</a></span> &#8250; <span>Archives for <data:blog.pageName/></span>
+</div>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<div class='breadcrumbs'>
+<b:if cond='data:blog.pageName == &quot;&quot;'>
+<span><a expr:href='data:blog.homepageUrl' title='Home'><i class='fa fa-home'/> Home</a></span> &#8250; <span>All posts</span>
+<b:else/>
+<span><a expr:href='data:blog.homepageUrl' title='Home'>Home</a></span> &#8250; <span>Posts filed under <data:blog.pageName/></span>
+</b:if>
+</div>
+</b:if>
+</b:if>
+</b:if>
+</b:if>
+</b:if>
+</b:includable>
+      <b:includable id='comment-form' var='post'/>
+      <b:includable id='commentDeleteIcon' var='comment'/>
+      <b:includable id='comment_count_picker' var='post'/>
+      <b:includable id='comment_picker' var='post'/>
+      <b:includable id='comments' var='post'/>
+      <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+    <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments'>
+          <b:if cond='data:post.feedLinks'>
+            <b:include data='post.feedLinks' name='feedLinksBody'/>
+          </b:if>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+      <b:includable id='iframe_comments' var='post'/>
+      <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+
+    <div class='mobile-post-outer'>
+	  <b:if cond='data:post.thumbnailUrl'>
+		<div class='mobile-index-thumbnail'>
+		  <div class='Image'>
+			<img expr:src='data:post.thumbnailUrl'/>
+		  </div>
+		</div>
+		<b:else/>
+		<div class='mobile-index-thumbnail'>
+		  <div class='Image'>
+			<img expr:alt='data:post.title' expr:title='data:post.title' src='http://3.bp.blogspot.com/-zP87C2q9yog/UVopoHY30SI/AAAAAAAAE5k/AIyPvrpGLn8/w200-h150-c/picture_not_available.png'/>
+		  </div>
+		</div>
+       </b:if>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+	  </a>
+
+        <div class='mobile-index-contents'>
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div class='clear'/>
+
+    </div>
+	
+  </div>
+</b:includable>
+      <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+      <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+      <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:else/>
+                <b:if cond='data:post.url'>
+                  <b:if cond='data:blog.url != data:post.url'>
+                    <a expr:href='data:post.url'><data:post.title/></a>
+                  <b:else/>
+                    <data:post.title/>
+                  </b:if>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>  
+            <data:post.body/>
+            <div class='clear'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.canonicalUrl' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                    <b:if cond='data:post.allowComments'>
+                      <b:include data='post' name='comment_count_picker'/>
+                    </b:if>
+                  </b:if>
+                </b:if>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+      <b:includable id='nextprev'/>
+      <b:includable id='post' var='post'>
+  <article class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<div itemType='https://schema.org/WebPage' itemprop='mainEntityOfPage' itemscope='itemscope'/><div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'><div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'><meta content='http://4.bp.blogspot.com/-zd1sexHavno/Vd2e0vUrrwI/AAAAAAAAChQ/Vjde-q982dU/s1600/Logo%2BBlog%2BDunia%2BBlanter.png' itemprop='url'/><meta content='600' itemprop='width'/><meta content='600' itemprop='height'/></div><meta expr:content='data:blog.title' itemprop='name'/></div>
+<b:if cond='data:post.firstImageUrl'><div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'><meta expr:content='data:post.firstImageUrl' itemprop='url'/><meta content='700' itemprop='width'/><meta content='700' itemprop='height'/></div></b:if>
+	<b:switch var='data:blog.pageType'>
+	<b:case value='static_page'/>
+	  <div>
+	    <b:if cond='data:post.title'>
+          <h1 class='post-title entry-title'>
+            <b:if cond='data:post.link'>
+              <a expr:href='data:post.link'><data:post.title/></a>
+            <b:else/>
+              <b:if cond='data:post.url'>
+                <b:if cond='data:blog.url != data:post.url'>
+                  <a expr:href='data:post.url'><data:post.title/></a>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+                <b:else/>
+                  <data:post.title/>
+              </b:if>
+            </b:if>
+          </h1>
+		</b:if>
+		<div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id'>
+			<data:post.body/>
+			<div class='clear'/> 
+		</div>	
+	  </div>
+	  <b:case value='item'/><div>
+	  <a expr:name='data:post.id'/> 
+	    <b:if cond='data:post.title'>
+          <h1 class='post-title entry-title' itemprop='name headline'>
+            <b:if cond='data:post.link'>
+              <a expr:href='data:post.link'><data:post.title/></a>
+            <b:else/>
+              <b:if cond='data:post.url'>
+                <b:if cond='data:blog.url != data:post.url'>
+                  <a expr:href='data:post.url'><data:post.title/></a>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+                <b:else/>
+                  <data:post.title/>
+              </b:if>
+            </b:if>
+          </h1>
+		</b:if>
+<div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='description articleBody'>		
+<!-- IKLAN ADSENSE DIBAWAH JUDUL -->		
+<data:post.body/>		
+<!-- IKLAN ADSENSE DIBAWAH POSTINGAN -->		
+<div class='clear'/> 
+<div class='spanshare'>Share This Article :</div><div id='shareblanter'><div class='share-post'>
+<li><a class='gplus waves-effect waves-light' expr:href='&quot;http://plus.google.com/share?url=&quot; + data:blog.url' rel='nofollow' target='_blank' title='Share To Google+'/></li>
+<li><a class='facebook waves-effect waves-light' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:blog.url' rel='nofollow' target='_blank' title='Share To Facebook'/></li>
+<li><a class='twitter waves-effect waves-light' expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url' rel='nofollow' target='_blank' title='Share To Twitter'/></li></div></div><div class='clear'/>		
+<div class='infopost'><div class='postheader'><div class='postinfo'>
+<div class='listinfo'><span class='post-author vcard'>Posted by : 
+<b:if cond='data:top.showAuthor'><b:if cond='data:post.authorProfileUrl'><span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><a expr:href='data:post.authorProfileUrl' itemprop='url' rel='author' title='author profile'><span itemprop='name'><data:post.author/></span></a></span><b:else/><span class='fn' itemprop='name'><data:post.author/></span></b:if></b:if></span></div><div class='listinfo'><b:if cond='data:post.dateHeader'><span itemprop='dateModified'><abbr class='published updated timeago' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.dateHeader/></abbr></span></b:if></div></div></div></div><div class='clear'/></div></div>
+<b:default/><b:if cond='data:post.thumbnailUrl'><a expr:href='data:post.url'><div class='img-thumb'><img expr:alt='data:post.title' expr:src='data:post.thumbnailUrl' expr:title='data:post.title' height='74' width='74'/></div></a><b:else/><b:if cond='data:post.firstImageUrl'><a expr:href='data:post.url'><div class='img-thumb'><img expr:alt='data:post.title' expr:src='data:post.firstImageUrl' expr:title='data:post.title' height='74' width='74'/></div></a><b:else/><a expr:href='data:post.url'><div class='img-thumb'><img expr:alt='data:post.title' expr:title='data:post.title' height='74' src='http://3.bp.blogspot.com/-ltyYh4ysBHI/U04MKlHc6pI/AAAAAAAADQo/PFxXaGZu9PQ/w100-h100-c/no-image.png' width='74'/></div></a>
+	</b:if> 
+    </b:if>
+	  <div class='post-box'>
+	  <b:if cond='data:post.firstImageUrl'>
+		<meta expr:content='data:post.firstImageUrl'/>
+	  </b:if>
+	  <a expr:name='data:post.id'/>
+	    <b:if cond='data:post.title'>
+          <h2 class='post-title entry-title' itemprop='name headline'>
+            <b:if cond='data:post.link'>
+              <a expr:href='data:post.link'><data:post.title/></a>
+            <b:else/>
+              <b:if cond='data:post.url'>
+                <b:if cond='data:blog.url != data:post.url'>
+                  <a expr:href='data:post.url'><data:post.title/></a>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+                <b:else/>
+                  <data:post.title/>
+              </b:if>
+            </b:if>
+          </h2>
+		</b:if>
+	  </div>  
+	</b:switch>
+  </article>
+</b:includable>
+      <b:includable id='postQuickEdit' var='post'/>
+      <b:includable id='shareButtons' var='post'/>
+      <b:includable id='status-message'>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'><style type='text/css'>#wrapper img{background:#fff}#error-blanter{padding:40px 0;text-align:center;line-height:1.5;box-shadow:1px 2px 5px #ddd;background:#fff;margin:20px 0;border-radius:5px}.teks1{color:#333;font-size:15px}.teks2{color:#888;font-size:13px}</style><div id='error-blanter'><img expr:alt='data:blog.title' src='https://3.bp.blogspot.com/-5MT-phZymrI/V353_Xik9ZI/AAAAAAAAENg/h01BBHxQo2c51pkzrJd45T9xkqVlY3P2QCLcB/s1600/error404.png'/><br/><div class='teks1'><data:navMessage/></div><div class='teks2'>Kemungkinan halaman telah dihapus atau anda salah menulis URL.</div></div></b:if><b:if cond='data:blog.pageType != &quot;error_page&quot;'><b:if cond='data:navMessage'><div class='status-msg-wrap'><div class='status-msg-body'><data:navMessage/></div><div class='status-msg-border'><div class='status-msg-bg'><div class='status-msg-hidden'><data:navMessage/></div></div></div></div><div class='clear'/></b:if></b:if>
+</b:includable>
+      <b:includable id='threaded-comment-form' var='post'/>
+      <b:includable id='threaded_comment_js' var='post'/>
+      <b:includable id='threaded_comments' var='post'/>
+    </b:widget>
+  </b:section>
+</div></div></b:if></div><div class='clear'/>
+<b:section class='banner728-bottom' id='banner728-bottom' showaddelement='yes'/>
+</div></div><div id='kredit'><div class='wrapper'><div class='k-left'>Copyright &#169; 2018 <a expr:href='data:blog.homepageUrl' expr:title='data:blog.title'><data:blog.title/></a><br/>Design by <a class='license' href='http://www.idblanter.com' target='_blank' title='Dunia Blanter'>Dunia Blanter</a></div>
+<div class='k-right'><span class='md-duniablanter'>Connect:
+<a href='https://www.facebook.com' rel='nofollow' target='_blank' title='Facebook'>Facebook</a>
+<a href='https://twitter.com' rel='nofollow' target='_blank' title='Twitter'>Twitter</a>
+<a href='https://plus.google.com' rel='nofollow' target='_blank' title='Google+'>Google+</a>
+<a href='https://youtube.com' rel='nofollow' target='_blank' title='Youtube'>Youtube</a>
+</span></div></div></div><div class='blanternotif'><div class='blantertitle'>How To Use</div><div class='notiftext'><ol><li>Put the link on the <strong>Safe Link Converter</strong> box with <strong>http://</strong> or <strong>https://</strong></li><li>Use <kbd><kbd>CTRL</kbd> + <kbd>V</kbd></kbd> on keyboard to put the link.</li><li>Click the <strong>Safe Link Now!</strong> button to get encrypted link.</li><li>Click the <strong><i class='material-icons'>&#57677;</i></strong> for Copy your link to clipboard!</li><li>Done.</li></ol><br/>You also can use Lock Feature for Secure your encrypted link.</div><a class='waves-effect icx close-sf' href='javascript:;'><i class='material-icons'>&#58829;</i></a></div><div class='matilampu'/><b:if cond='data:blog.pageType == &quot;index&quot;'><div class='suksescopy'><i class='material-icons'>&#59500;</i> Safelink Copied</div></b:if><div id='h237'><span>Please Enable JavaScript!<br/>Mohon Aktifkan Javascript!<a href='http://www.enable-javascript.com/'>[ Enable JavaScript ]</a></span></div>
+<script type='text/javascript'>
+//<![CDATA[
+if (typeof(jQuery) == 'undefined') {document.write("<scr" + "ipt type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></scr" + "ipt>");}
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+// Settings
+var seconds = 12; // Countdown Timer
+var blog_url="https://safelink.blanter.net"; // Homepage Blog Safelink
+var article1="/2017/07/lucid-dreaming.html"; // Article 1
+var article2="/2017/07/english-vocabulary.html"; // Article 2
+var article3="/2017/07/material-design.html"; // Article 3
+var recentpost_url = "https://www.idblanter.com",numPosts = 8; // URL Recent Post
+var teksadblock="Please disable your Adblocker! Thanks.<br/>Harap nonaktifkan Adblocker Anda! Terima kasih."; // Teks Adblock
+// Locked Javascript
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('p 17=B.1c.1q();w(17.R("%3D","%3D")>0&&(B.1c=17.1j(/%3D/,"=")),(17=B.1c.1q()).R("%3D%3D","%3D%3D")>0&&(B.1c=17.1j(/%3D%3D/,"==")),(17=B.1c.1q()).R("&m=1","&m=1")>0){p 2Z=17.69(0,17.R("&m=1"));B.6a.6n({},v.1S,2Z)}w((17=B.1c.1q()).R("?m=1","?m=1")>0){p 2Z=17.69(0,17.R("?m=1"));B.6a.6n({},v.1S,2Z)}j 2V(){p d=v.1J("2d");d.13="4m://4r.a4.4W/a3/3q/a1.3q",v.1n.1W(d)}B.L?B.L("4q",2V,!1):B.3j?B.3j("1I",2V):B.1I=2V;B.v.K("1x").21.2D(B.v.K("1x")),j(e,t){j n(e){e&&1x.1N()}p a=e.v,i=["i","s","u"];n.Y={2B:j(e){q 1H.3S(1H.3I()*e)},1F:j(e,t){q e?a.K(e):a.3m(t)},3a:j(e){p t=a.5l;q t&&t.5q?t.5q(e,G):e.a0},2e:j(e){2s(e,2f)},3E:j(e,t){p n=a.1J("2i"),i=a.1n,d=i.2q.C,r=i.F,s=0,o=0;w("1x"==t){p l=v.K("9Z-5w");E(n.1b("2I",t),r.45=r.3v=0,r.6f="6l%",l.1r="<X F=\'2r-3J:4E;T-9Y:9W;2r-9V:9S;5k:9O;9N-6f:1.5\'>"+9J+"<3F/><3F/><a U=\'V-1P V-5Q\' F=\'5k:#9I;9H:#9E;3v:9x 4E;2r-3J:9o;3b-9n:9l;3b-9k:9j 97 #96\' 1m=\'94:B.1c.6p()\'><i F=\'2r-3J:91;90:1k;45-4s:8Z\' U=\'4y-4z\'>&#8Y;</i> 8X</a></X>",d=k.2B(d);s<d;s++)1==i.2q[s].24&&(o=1H.4I(o,8W(k.3a(i.2q[s]).4N)||0));o&&(n.F.4N=o+1),d++}n.1r=e,i.4O(n,i.2q[d-1])},2a:j(e){p t=k;e="4U".1g(t.2B(5)),t.3E("<"+e+"></"+e+">","1x"),a.L&&t.2e(j(){t.1F("1x").L("8V",j(){t.2a()},!1)})},i:j(){E(p e="8U,2c-8T-1,8S,5i-8R,8Q,8P,8O,2c,5i,8N".30(","),t=e.C,n="",a=k,i=0,d="4U".1g(a.2B(5));i<t;i++)a.1F(e[i])||(n+="<"+d+\' 2I="\'+e[i]+\'"></\'+d+">");a.3E(n),a.2e(j(){E(i=0;i<t;i++)w(G==a.1F(e[i]).8L||"40"==a.3a(a.1F(e[i])).2l)q a.2a("#"+e[i]+"("+i+")");a.1N()})},s:j(){p n,i,d,r,s={"4r.8K":"8I","3q.8H.5P/8G":"8F","3L.8E.5P/8A":"8z"},o=k,l=o.1F(0,"2d"),c=l.C-1;E(a.8x=G,a.8t=G;0<=c;--c)w(n=l[c].13.3s(7,20),s[n]!==t)q d=a.1J("2d"),d.1Q="T/8s",d.13=l[c].13,i=s[n],e[i]=t,d.1I=d.6k=j(){r=k,e[i]!==t||r.3e&&"8o"!==r.3e&&"8n"!==r.3e||(e[i]=d.1I=d.6k=G,l[0].21.2D(d))},l[0].21.4O(d,l[0]),S o.2e(j(){w(e[i]===t)q o.2a(d.13);o.1N()});o.1N()},u:j(){""!=4h.C&&(""==2E?8m():4h.1r=\'<X 2I="8l"><X U="W-8k"><W 1Q="2y" 3M="3M" 8j="2E" U="2E" z=""/><2i U="8i"></2i><2i U="8h"></2i><4G>6r 8f 4J</4G><3F/><1T U="V-1P V-5Q" 8e="8d()"><i U="4y-4z">&#8c;</i> 8b</1T></X><X 2I="8a" F="2l:40">89 4J</X></X>\');p e,n,a="2c&88=,-87-86/,/85.,/84.,/83/2c,/82.,/81/2c,/80.,/7Y.,7X.".30(","),d=k,r=d.1F(0,"55");r[0]!==t&&r[0].13!==t&&(e=I 7U,e.1I=j(){(n=k).1I=G,n.7T=j(){i=G,d.2a(n.13)},n.13=r[0].13+"#"+a.7S("")},e.13=r[0].13),d.2e(j(){d.1N()})},1N:j(){p e=i[0];e!==t&&(i.7R(),k[e]())}},e.1x=1x=I n,a.L?e.L("4q",n,!1):e.3j("1I",n)}(B);j 7Q(){5g()}j 5g(){p e=B.1c.7N;""==1l||1l.3n(e)?""==1l&&(1l=e):1l+=", "+e;p t="",r=I 2o,o=0;t=v.3m("a"),2p=t.C,o=(r=5n()).C;E(p n=!1,a=0,c="",d=0;d<2p;d++){E(n=!1,a=0;0==n&&a<o;)!(c=t[d].1m).3n(r[a])&&c&&c.3n("7M")||(n=!0),a++;w(0==n){p i=2k.2j(c),18=1H.3S(3*1H.3I()+1),h=G;"1"==18&&(h=""+5y),"2"==18&&(h=""+5B),"3"==18&&(h=""+5D),t[d].1m=""+5E+h+"?3R="+i,t[d].5H="7K",44++,5R+=d+":::"+t[d].1m+"\\n"}}p f=v.K("7I"),l=v.K("7D");f&&(f.1r+=44),l&&(l.1r+=2p)}j 5n(){I 2o;q 1l=1l.1j(" ",""),1l.30(",")}p 2k={1h:"7y+/=",2j:j(e){p t,r,o,n,a,c,d,i="",18=0;E(e=2k.62(e);18<e.C;)n=(t=e.1s(18++))>>2,a=(3&t)<<4|(r=e.1s(18++))>>4,c=(15&r)<<2|(o=e.1s(18++))>>6,d=63&o,6c(r)?c=d=64:6c(o)&&(d=64),i=i+k.1h.1g(n)+k.1h.1g(a)+k.1h.1g(c)+k.1h.1g(d);q i},3z:j(e){p t,r,o,n,a,c,d="",i=0;E(e=e.1j(/[^A-7w-7v-9\\+\\/\\=]/g,"");i<e.C;)t=k.1h.R(e.1g(i++))<<2|(n=k.1h.R(e.1g(i++)))>>4,r=(15&n)<<4|(a=k.1h.R(e.1g(i++)))>>2,o=(3&a)<<6|(c=k.1h.R(e.1g(i++))),d+=Q.16(t),64!=a&&(d+=Q.16(r)),64!=c&&(d+=Q.16(o));q d=2k.6o(d)},62:j(e){e=e.1j(/\\r\\n/g,"\\n");E(p t="",r=0;r<e.C;r++){p o=e.1s(r);o<1V?t+=Q.16(o):o>7u&&o<7r?(t+=Q.16(o>>6|7q),t+=Q.16(63&o|1V)):(t+=Q.16(o>>12|4k),t+=Q.16(o>>6&63|1V),t+=Q.16(63&o|1V))}q t},6o:j(e){E(p t="",r=0,o=7p=29=0;r<e.C;)(o=e.1s(r))<1V?(t+=Q.16(o),r++):o>7o&&o<4k?(29=e.1s(r+1),t+=Q.16((31&o)<<6|63&29),r+=2):(29=e.1s(r+1),4p=e.1s(r+2),t+=Q.16((15&o)<<12|(63&29)<<6|63&4p),r+=3);q t}},2j=v.K("2j"),3z=v.K("3z"),28=v.K("28"),W=v.K("W"),7m="",1l="",2p=0,44=0,5R="";j 3T(){w(""!=W.z){p e=1H.3S(3*1H.3I()+1),t=G;"1"==e&&(t=""+5y),"2"==e&&(t=""+5B),"3"==e&&(t=""+5D),28.z=""+5E+t+"?3R="+2k.2j(W.z+","+2y.z)}1i 28.z=""}p W=v.K("4u"),28=v.K("4v"),2y=v.K("2E");W.4w=3T,2y.4w=3T;v.7l=j(n){q n=n||B.41,42==n.43?!1:S 0},v.7k=j(n){q n=n||B.41,42==n.43?!1:S 0},v.7c=j(n){q n=n||B.41,42==n.43?!1:S 0};!j(e){w("1O"==D O&&"1p"!=D 23)23.O=e();1i w("j"==D 4b&&4b.4d)4b([],e);1i{p t;t="1p"!=D B?B:"1p"!=D 4K?4K:"1p"!=D 4L?4L:k,t.39=e()}}(j(){p e,t,n;q j e(t,n,i){j o(a,c){w(!n[a]){w(!t[a]){p l="j"==D 2F&&2F;w(!c&&l)q l(a,!0);w(r)q r(a,!0);p s=I 1M("3c 7b 23 \'"+a+"\'");11 s.4S="77",s}p u=n[a]={O:{}};t[a][0].1d(u.O,j(e){p n=t[a][1][e];q o(n?n:e)},u,u.O,e,t,n,i)}q n[a].O}E(p r="j"==D 2F&&2F,a=0;a<i.C;a++)o(i[a]);q o}({1:[j(e,t,n){j i(e,t){E(;e&&e.24!==o;){w(e.3g(t))q e;e=e.21}}p o=9;w(2H&&!2H.Y.3g){p r=2H.Y;r.3g=r.76||r.75||r.74||r.73||r.72}t.O=i},{}],2:[j(e,t,n){j i(e,t,n,i,r){p a=o.3k(k,Z);q e.L(n,a,r),{1z:j(){e.2m(n,a,r)}}}j o(e,t,n,i){q j(n){n.3o=r(n.H,t),n.3o&&i.1d(e,n)}}p r=e("./5G");t.O=i},{"./5G":1}],3:[j(e,t,n){n.3r=j(e){q S 0!==e&&e 2h 59&&1===e.24},n.5a=j(e){p t=1w.Y.1q.1d(e);q S 0!==e&&("[1O 5c]"===t||"[1O 5d]"===t)&&"C"19 e&&(0===e.C||n.3r(e[0]))},n.2J=j(e){q"2J"==D e||e 2h Q},n.1L=j(e){p t=1w.Y.1q.1d(e);q"[1O 5h]"===t}},{}],4:[j(e,t,n){j i(e,t,n){w(!e&&!t&&!n)11 I 1M("6S 3M Z");w(!c.2J(t))11 I 1K("6R 3A 2L 2M a Q");w(!c.1L(n))11 I 1K("6P 3A 2L 2M a 5h");w(c.3r(e))q o(e,t,n);w(c.5a(e))q r(e,t,n);w(c.2J(e))q a(e,t,n);11 I 1K("6O 3A 2L 2M a Q, 59, 5d, 2O 5c")}j o(e,t,n){q e.L(t,n),{1z:j(){e.2m(t,n)}}}j r(e,t,n){q 2o.Y.5r.1d(e,j(e){e.L(t,n)}),{1z:j(){2o.Y.5r.1d(e,j(e){e.2m(t,n)})}}}j a(e,t,n){q l(v.1n,e,t,n)}p c=e("./5s"),l=e("5t");t.O=i},{"./5s":3,5t:2}],5:[j(e,t,n){j i(e){p t;w("6N"===e.3H)e.2Q(),t=e.z;1i w("6M"===e.3H||"6L"===e.3H)e.2Q(),e.6K(0,e.z.C),t=e.z;1i{e.26("6I")&&e.2Q();p n=B.5C(),i=v.6H();i.6G(e),n.5F(),n.6F(i),t=n.1q()}q t}t.O=i},{}],6:[j(e,t,n){j i(){}i.Y={1G:j(e,t,n){p i=k.e||(k.e={});q(i[e]||(i[e]=[])).5I({1L:t,5J:n}),k},6E:j(e,t,n){j i(){o.5L(e,i),t.3k(n,Z)}p o=k;q i.18=t,k.1G(e,i,n)},5M:j(e){p t=[].5N.1d(Z,1),n=((k.e||(k.e={}))[e]||[]).5N(),i=0,o=n.C;E(i;i<o;i++)n[i].1L.3k(n[i].5J,t);q k},5L:j(e,t){p n=k.e||(k.e={}),i=n[e],o=[];w(i&&t)E(p r=0,a=i.C;r<a;r++)i[r].1L!==t&&i[r].1L.18!==t&&o.5I(i[r]);q o.C?n[e]=o:6D n[e],k}},t.O=i},{}],7:[j(t,n,i){!j(o,r){w("j"==D e&&e.4d)e(["23","2U"],r);1i w("1p"!=D i)r(n,t("2U"));1i{p a={O:{}};r(a,o.2U),o.1y=a.O}}(k,j(e,t){"1R 3U";j n(e){q e&&e.5T?e:{1E:e}}j i(e,t){w(!(e 2h t))11 I 1K("3c 1d a U 5V a j")}p o=n(t),r="j"==D 1Y&&"5X"==D 1Y.6B?j(e){q D e}:j(e){q e&&"j"==D 1Y&&e.5Z===1Y&&e!==1Y.Y?"5X":D e},a=j(){j e(e,t){E(p n=0;n<t.C;n++){p i=t[n];i.1X=i.1X||!1,i.3Y=!0,"z"19 i&&(i.3Z=!0),1w.65(e,i.M,i)}}q j(t,n,i){q n&&e(t.Y,n),i&&e(t,i),t}}(),c=j(){j e(t){i(k,e),k.2Y(t),k.68()}q a(e,[{M:"2Y",z:j e(){p t=Z.C>0&&S 0!==Z[0]?Z[0]:{};k.N=t.N,k.1C=t.1C,k.H=t.H,k.T=t.T,k.25=t.25,k.33=""}},{M:"68",z:j e(){k.T?k.6d():k.H&&k.6e()}},{M:"6d",z:j e(){p t=k,n="6A"==v.47.1B("6z");k.36(),k.37=j(){q t.36()},k.4c=v.1n.L("2n",k.37)||!0,k.P=v.1J("6y"),k.P.F.6x="6u",k.P.F.3b="0",k.P.F.3v="0",k.P.F.45="0",k.P.F.6s="8g",k.P.F[n?"4s":"1k"]="-6t";p i=B.6q||v.47.6v;k.P.L("2Q",B.6w(0,i)),k.P.F.1v=i+"22",k.P.1b("35",""),k.P.z=k.T,v.1n.1W(k.P),k.33=(0,o.1E)(k.P),k.46()}},{M:"36",z:j e(){k.4c&&(v.1n.2m("2n",k.37),k.4c=G,k.37=G),k.P&&(v.1n.2D(k.P),k.P=G)}},{M:"6e",z:j e(){k.33=(0,o.1E)(k.H),k.46()}},{M:"46",z:j e(){p t=S 0;5Y{t=v.6C(k.N)}5O(e){t=!1}k.5K(t)}},{M:"5K",z:j e(t){k.1C.5M(t?"3P":"3O",{N:k.N,T:k.33,25:k.25,3N:k.3N.2T(k)})}},{M:"3N",z:j e(){k.H&&k.H.6J(),B.5C().5F()}},{M:"1z",z:j e(){k.36()}},{M:"N",5z:j e(){p t=Z.C>0&&S 0!==Z[0]?Z[0]:"2S";w(k.2R=t,"2S"!==k.2R&&"2P"!==k.2R)11 I 1M(\'2N "N" z, 1R 5o "2S" 2O "2P"\')},3L:j e(){q k.2R}},{M:"H",5z:j e(t){w(S 0!==t){w(!t||"1O"!==("1p"==D t?"1p":r(t))||1!==t.24)11 I 1M(\'2N "H" z, 1R a 6Q 2H\');w("2S"===k.N&&t.26("2K"))11 I 1M(\'2N "H" 3x. 6T 1R "35" 6U 6V "2K" 3x\');w("2P"===k.N&&(t.26("35")||t.26("2K")))11 I 1M(\'2N "H" 3x. 6W 6X\\\'t 2P T 6Y 6Z 70 "35" 2O "2K" 71\');k.4Z=t}},3L:j e(){q k.4Z}}]),e}();e.O=c})},{2U:5}],8:[j(t,n,i){!j(o,r){w("j"==D e&&e.4d)e(["23","./1u-N","38-1C","3h-1Z"],r);1i w("1p"!=D i)r(n,t("./1u-N"),t("38-1C"),t("3h-1Z"));1i{p a={O:{}};r(a,o.1y,o.78,o.79),o.1u=a.O}}(k,j(e,t,n,i){"1R 3U";j o(e){q e&&e.5T?e:{1E:e}}j r(e,t){w(!(e 2h t))11 I 1K("3c 1d a U 5V a j")}j a(e,t){w(!e)11 I 7a("k 4Q\'t 4C 7d - 7e() 4Q\'t 4C 7f");q!t||"1O"!=D t&&"j"!=D t?e:t}j c(e,t){w("j"!=D t&&G!==t)11 I 1K("7g 7h 2L 5o 2M G 2O a j, 7i "+D t);e.Y=1w.7j(t&&t.Y,{5Z:{z:e,1X:!1,3Z:!0,3Y:!0}}),t&&(1w.4B?1w.4B(e,t):e.4x=t)}j l(e,t){p n="1o-1u-"+e;w(t.26(n))q t.1B(n)}p s=o(t),u=o(n),f=o(i),d=j(){j e(e,t){E(p n=0;n<t.C;n++){p i=t[n];i.1X=i.1X||!1,i.3Y=!0,"z"19 i&&(i.3Z=!0),1w.65(e,i.M,i)}}q j(t,n,i){q n&&e(t.Y,n),i&&e(t,i),t}}(),h=j(e){j t(e,n){r(k,t);p i=a(k,(t.4x||1w.7n(t)).1d(k));q i.2Y(n),i.4o(e),i}q c(t,e),d(t,[{M:"2Y",z:j e(){p t=Z.C>0&&S 0!==Z[0]?Z[0]:{};k.N="j"==D t.N?t.N:k.4n,k.H="j"==D t.H?t.H:k.4l,k.T="j"==D t.T?t.T:k.4j}},{M:"4o",z:j e(t){p n=k;k.1Z=(0,f.1E)(t,"2n",j(e){q n.4i(e)})}},{M:"4i",z:j e(t){p n=t.3o||t.7s;k.1y&&(k.1y=G),k.1y=I s.1E({N:k.N(n),H:k.H(n),T:k.T(n),25:n,1C:k})}},{M:"4n",z:j e(t){q l("N",t)}},{M:"4l",z:j e(t){p n=l("H",t);w(n)q v.7t(n)}},{M:"4j",z:j e(t){q l("T",t)}},{M:"1z",z:j e(){k.1Z.1z(),k.1y&&(k.1y.1z(),k.1y=G)}}]),t}(u.1E);e.O=h})},{"./1u-N":7,"3h-1Z":4,"38-1C":6}]},{},[8])(8)});p 1u=I 39(".1T-3K");1u.1G("3P",j(o){2v.2u(o),v.K("7x").F.2l="6h",v.K("4u").z="",v.K("4v").z=""}),1u.1G("3O",j(o){2v.2u(o)});p 4a=I 39(".1T-4S");4a.1G("3P",j(o){2v.2u(o),v.K("7z").F.2l="6h",v.K("7A").F.2l="40"}),4a.1G("3O",j(o){2v.2u(o)});j 7B(){1c.6p()};!j(t){"1R 3U";j e(t){q G!==t&&t===t.B}j n(t){q e(t)?t:9===t.24&&t.5l}j a(t){p e,a,i={1v:0,1k:0},o=t&&t.7C;q e=o.47,S 0!==t.5W&&(i=t.5W()),a=n(o),{1v:i.1v+a.6q-e.7E,1k:i.1k+a.7F-e.7G}}j i(t){p e="";E(p n 19 t)t.7H(n)&&(e+=n+":"+t[n]+";");q e}j o(t){w(!1===d.48(t))q G;E(p e=G,n=t.H||t.7J;G!==n.3V;){w(!(n 2h 7L||-1===n.1f.R("V-1P"))){e=n;3C}w(n.7O.7P("V-1P")){e=n;3C}n=n.3V}q e}j r(e){p n=o(e);G!==n&&(c.5f(e,n),"3i"19 t&&(n.L("5b",c.1A,!1),n.L("57",c.1A,!1)),n.L("7V",c.1A,!1),n.L("7W",c.1A,!1))}p s=s||{},u=v.54.2T(v),c={J:7Z,5f:j(t,e){w(2===t.1T)q!1;p n=e||k,o=v.1J("X");o.1f="V-52",n.1W(o);p r=a(n),s=t.51-r.1v,u=t.50-r.1k,d="3B("+n.4X/6l*10+")";"1t"19 t&&(s=t.1t[0].51-r.1v,u=t.1t[0].50-r.1k),o.1b("1o-4V",3G.4T()),o.1b("1o-3B",d),o.1b("1o-x",u),o.1b("1o-y",s);p l={1v:s+"22",1k:u+"22"};o.1f=o.1f+" V-4R",o.1b("F",i(l)),o.1f=o.1f.1j("V-4R",""),l["-2g-1a"]=d,l["-2b-1a"]=d,l["-1e-1a"]=d,l["-o-1a"]=d,l.1a=d,l.4H="1",l["-2g-14-J"]=c.J+"1e",l["-2b-14-J"]=c.J+"1e",l["-o-14-J"]=c.J+"1e",l["14-J"]=c.J+"1e",l["-2g-14-2t-j"]="2w-2z(0.2f, 0.2A, 0.2C, 0.2G)",l["-2b-14-2t-j"]="2w-2z(0.2f, 0.2A, 0.2C, 0.2G)",l["-o-14-2t-j"]="2w-2z(0.2f, 0.2A, 0.2C, 0.2G)",l["14-2t-j"]="2w-2z(0.2f, 0.2A, 0.2C, 0.2G)",o.1b("F",i(l))},1A:j(t){d.6m(t);p e=k,n=(e.4X,G),a=e.8p("V-52");w(!(a.C>0))q!1;p o=(n=a[a.C-1]).1B("1o-x"),r=n.1B("1o-y"),s=n.1B("1o-3B"),u=8q-(3G.4T()-8r(n.1B("1o-4V")));u<0&&(u=0),2s(j(){p t={1v:r+"22",1k:o+"22",4H:"0","-2g-14-J":c.J+"1e","-2b-14-J":c.J+"1e","-o-14-J":c.J+"1e","14-J":c.J+"1e","-2g-1a":s,"-2b-1a":s,"-1e-1a":s,"-o-1a":s,1a:s};n.1b("F",i(t)),2s(j(){5Y{e.2D(n)}5O(t){q!1}},c.J)},u)},3f:j(t){E(p e=0;e<t.C;e++){p n=t[e];w("W"===n.3l.3t()){p a=n.21;w("i"===a.3l.3t()&&-1!==a.1f.R("V-1P"))8u;p i=v.1J("i");i.1f=n.1f+" V-W-5w";p o=n.1B("F");o||(o=""),i.1b("F",o),n.1f="V-1T-W",n.8v("F"),a.8w(i,n),i.1W(n)}}}},d={1t:0,48:j(t){p e=!0;q"3u"===t.1Q?d.1t+=1:"5b"===t.1Q||"57"===t.1Q?2s(j(){d.1t>0&&(d.1t-=1)},8y):"3y"===t.1Q&&d.1t>0&&(e=!1),e},6m:j(t){d.48(t)}};s.61=j(e){"J"19(e=e||{})&&(c.J=e.J),c.3f(u(".V-1P")),"3i"19 t&&v.1n.L("3u",r,!1),v.1n.L("3y",r,!1)},s.8B=j(e){"W"===e.3l.3t()&&(c.3f([e]),e=e.3V),"3i"19 t&&e.L("3u",r,!1),e.L("3y",r,!1)},t.8C=s,v.L("8D",j(){s.61()},!1)}(B);p 27=v.54("\\3Q\\2W\\2X\\3W\\8J\\3X\\2W\\1D\\2X");-1==(27=(27=27[27.C-1]).8M.1r).R("\\3Q\\1D\\1D\\5p\\5m\\32\\32\\1U\\1U\\1U\\34\\5e\\3W\\58\\53\\2X\\4Y\\1D\\2W\\4M\\34\\4D\\4A\\3X")&&(B.1c.1m="\\3Q\\1D\\1D\\5p\\5m\\32\\32\\1U\\1U\\1U\\34\\5e\\3W\\58\\53\\2X\\4Y\\1D\\2W\\4M\\34\\4D\\4A\\3X");j 4t(e){w(v.K("4g-2x")){E(p t,s,r=e.92.93,n="",a=v.K("4g-2x"),l=0;l<4f;l++){E(p c=0;c<4f;c++)w("95"==r[l].3K[c].5H){s=r[l].3K[c].1m;3C}"6j$6i"19 r[l]?u=r[l].6j$6i.3R.1j(/.*?:\\/\\//g,"//").1j(/\\/s[0-9]+\\-c/g,"/98"):u="4m://1.99.9a.4W/-9b/9c/9d/9e-9f/9g/9h.9i";p t=r[l].1S.$t;n+=\'<6g U="4g-2x"><a 1m="\'+s+\'" 1S="\'+t+\'" H="4e"><55 13="\'+u+\'" 6b="\'+t+\'"></a><X U="9m"><a 1m="\'+s+\'" 1S="\'+t+\'" H="4e">\'+t+"</a></X></6g>"}a.1r=n}}p 3w=v.1J("2d");3w.13=67+"/9p/2x/9q?6b=9r-19-2d&9s=9t&4I-9u="+4f+"&9v=4t",v.3m("9w")[0].1W(3w);$(v).66(j(){$(".9y-9z").2n(j(){W.z.C&&$("#9A,.9B").9C("9D")})});p 60=v.K("9F");60.1r=\'<X U="9G"><5U>5S 5v</5U><a U="9K" 1m="\'+67+\'" 1S="5S 5v" H="4e">9L 9M</a></X>\';j 3d(a,b,c){p d=I 3G;d.9P(d.9Q()+c);p e=9R(b)+(0==c?";5j=/":"; 9T="+d.9U())+";5j=/";v.56=a+"="+e}j 49(a){p b,c,d,e=v.56.30(";");E(b=0;b<e.C;b++)w(c=e[b].3s(0,e[b].R("=")),d=e[b].3s(e[b].R("=")+1),c=c.1j(/^\\s+|\\s+$/g,""),c==a)q 9X(d)}j 4P(a,b){p c=49(a);S 0!=c&&""!=c?(5u=5A(c)+1,3d(a,5u.1q(),0)):3d(a,"1",b)}j 3p(a,b){p c=49(a);q S 0!=c&&5A(c)>=b?!0:!1}a2(v).66(j(a){p b="5x",c=7,d=3,e=".5x",f=!1;3p(b,d)&&a(e).1A("4F"),a(e).2T("a5",j(){f=!0}).2T("a6",j(){f=!1}),a(B).1G("a7",j(){f&&(3p(b,d)?a(e).1A("4F"):4P(b,c))})});',62,628,'|||||||||||||||||||function|this|||||var|return|||||document|if|||value||window|length|typeof|for|style|null|target|new|duration|getElementById|addEventListener|key|action|exports|fakeElem|String|indexOf|void|text|class|waves|input|div|prototype|arguments||throw||src|transition||fromCharCode|uri|_|in|transform|setAttribute|location|call|ms|className|charAt|_keyStr|else|replace|left|protected_links|href|body|data|undefined|toString|innerHTML|charCodeAt|touches|clipboard|top|Object|h237|clipboardAction|destroy|hide|getAttribute|emitter|x74|default|getElementBy|on|Math|onload|createElement|TypeError|fn|Error|nextFunction|object|effect|type|use|title|button|x77|128|appendChild|enumerable|Symbol|listener||parentNode|px|module|nodeType|trigger|hasAttribute|navigation|output|c2|displayMessage|moz|ad|script|deferExecution|250|webkit|instanceof|span|encode|Base64|display|removeEventListener|click|Array|a_to_va|childNodes|font|setTimeout|timing|log|console|cubic|posts|password|bezier|460|rand|450|removeChild|pass|require|940|Element|id|string|disabled|must|be|Invalid|or|cut|focus|_action|copy|bind|select|downloadJSAtOnload|x65|x61|resolveOptions|clean_uri|split||x2F|selectedText|x2E|readonly|removeFake|fakeHandlerCallback|tiny|Clipboard|getStyle|border|Cannot|ASSetCookie|readyState|wrapInput|matches|good|ontouchstart|attachEvent|apply|tagName|getElementsByTagName|match|delegateTarget|ASMaxClick|js|node|substr|toLowerCase|touchstart|padding|rcp|attribute|mousedown|decode|argument|scale|break||insert|br|Date|nodeName|random|size|link|get|required|clearSelection|error|success|x68|url|floor|duniablanter|strict|parentElement|x64|x6D|configurable|writable|none|event|123|keyCode|a_to_vb|margin|copyText|documentElement|allowEvent|ASGetCookie|clipboard2|define|fakeHandler|amd|_blank|numPosts|recent|converter_result|onClick|defaultText|224|defaultTarget|https|defaultAction|listenClick|c3|load|pagead2|right|recentPosts|inputURL|resultLink|onkeyup|__proto__|material|icons|x6F|setPrototypeOf|been|x63|15px|fast|label|opacity|max|Password|global|self|x72|zIndex|insertBefore|ASSetCookieAds|hasn|notransition|code|now|abisuq|hold|com|clientWidth|x6E|_target|pageX|pageY|ripple|x6C|querySelectorAll|img|cookie|touchcancel|x62|HTMLElement|nodeList|touchend|NodeList|HTMLCollection|x69|show|auto_safeconvert|Function|ads|path|color|defaultView|x3A|a_to_fa|either|x70|getComputedStyle|forEach|is|delegate|ASTheCookieInt|Post|wrapper|adsShield|article1|set|parseInt|article2|getSelection|article3|blog_url|removeAllRanges|closest|rel|push|ctx|handleResult|off|emit|slice|catch|de|light|a_to_vc|Recent|__esModule|h2|as|getBoundingClientRect|symbol|try|constructor|titlerecentpost|displayEffect|_utf8_encode|||defineProperty|ready|recentpost_url|initSelection|substring|history|alt|isNaN|selectFake|selectTarget|height|li|block|thumbnail|media|onreadystatechange|100|touchup|replaceState|_utf8_decode|reload|pageYOffset|Enter|position|9999px|12pt|scrollTop|scrollTo|fontSize|textarea|dir|rtl|iterator|execCommand|delete|once|addRange|selectNodeContents|createRange|contenteditable|blur|setSelectionRange|TEXTAREA|INPUT|SELECT|First|Third|valid|Second|Missing|Please|instead|of|You|can|from|elements|with|attributes|webkitMatchesSelector|oMatchesSelector|msMatchesSelector|mozMatchesSelector|matchesSelector|MODULE_NOT_FOUND|tinyEmitter|goodListener|ReferenceError|find|onkeydown|initialised|super|called|Super|expression|not|create|onmousedown|onkeypress|User_ID|getPrototypeOf|191|c1|192|2048|currentTarget|querySelector|127|z0|Za|btnInfo|ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789|btnInfo2|codebox|refresh|ownerDocument|found_links|clientTop|pageXOffset|clientLeft|hasOwnProperty|anonyminized|srcElement|nofollow|SVGElement|http|hostname|classList|contains|auto_safelink|shift|join|onerror|Image|mouseup|mouseleave|_adshare|meme_ad|620|loadadsparam|impopup|adyard300|adsxml|adfootright|adchain|peel|page|adv_keywords|Wrong|wrongpass|Unlock|xE898|input_pass|onclick|Your|absolute|bar|highlight|name|field|kotakpassword|hitung_mundur|complete|loaded|getElementsByClassName|350|Number|javascript|writeln|continue|removeAttribute|replaceChild|write|500|adPlaceId|miran|attach|Waves|DOMContentLoaded|mirando|adscale_slot_id|getads|adscale|google_ad_client|x20|googlesyndic|offsetParent|nextElementSibling|adsense|tobsideAd|leftframeAD|iqadtile5|sticky|ad_190x90|zone|DivTopAd|DOMNodeRemoved|parseFloat|Reload|xE86A|8px|float|19px|feed|entry|JavaScript|alternate|8e0000|solid|s300|bp|blogspot|jHWwEwTEwQ4|WJJ4k71QSYI|AAAAAAAApVc|XO_OitR_VGQS_Wquq1pv1h1D|dgiejSuQCLcB|s90|nothumb_large|png|2px|bottom|3px|title_post|radius|13px|feeds|summary|json|orderby|published|results|callback|head|10px|btn|safe|blantersafelink|matilampu|toggleClass|aktif|c62828|xtitlex|recenthd|background|fff|teksadblock|gorecent|View|More|line|red|setDate|getDate|escape|bold|expires|toUTCString|weight|center|unescape|align|safelink|currentStyle|adsbygoogle|jQuery|pagead|googlesyndication|mouseover|mouseout|beforeunload'.split('|'),0,{}))
+//]]>
+$(document).ready(function(){$(&quot;.close-sf&quot;).click(function(){$(&quot;.blanternotif,#blantersafelink,.matilampu,.suksescopy&quot;).removeClass(&quot;aktif&quot;)})}),$(document).ready(function(){$(&quot;#btnCopy&quot;).click(function(){$(&quot;.suksescopy&quot;).toggleClass(&quot;aktif&quot;)})}),$(document).ready(function(){$(&quot;.btn-pass&quot;).click(function(){$(&quot;.input-pass&quot;).slideToggle(&quot;fast&quot;)})}),$(document).ready(function(){$(&quot;.toggleMenu&quot;).click(function(){$(&quot;.nav-menu2&quot;).slideToggle(&quot;normal&quot;)})}),$(document).ready(function(){$(&quot;.notifhtu&quot;).click(function(){$(&quot;.blanternotif,.matilampu&quot;).toggleClass(&quot;aktif&quot;)})});
+</script>
+<b:if cond='data:blog.pageType != &quot;index&quot;'>
+<script type='text/javascript'>
+// Settings 2
+var key_javascript = &#39;aHR0cHM6Ly9zYWZlbGluay5ibGFudGVyLm5ldC8s&#39;; // Key Online Javascript
+var data_blog_url = &quot;<data:blog.url/>&quot;;
+var homepageJS = &quot;<data:blog.homepageUrl/>,&quot;;
+var success_text = &quot;Well done! you have successfully gained access to Decrypted Link.&quot;; // Successfully Decrypted Text
+var continue_text = &quot;<i class='material-icons' style='font-size:19px;float:left;margin-right:8px'>&#57699;</i> Continue&quot;; // Change to Your Continue Text
+var labil = &quot;true&quot;; // Position Left Right Continue Button, false or true
+//<![CDATA[
+// Premium License
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4 7=o.g.9,8=f.h("p-q"),3=7.B(C+"?7=",""),7=(3=(3=b.3(3)).1C(","))[0],c=3[1],2a=f.h("J-K");5 T(){4 n;n=1Q(5(){w<=1?(8.v="<6 i=\'1T\'><6 i=\'1U\' j=\'X:Z 13;1c:#1v;1w:#1x;1y-1z:1A;k-1D:1J\'>"+1K+"</6><6 l=\'J-K\'><m 1R=\'m\' l=\'1S\' i=\'V x-1X x-21\' 27=\'y();\' j=\'2b:2c-W;\'><z>"+Y+"</z></m></6></6>",A(n)):(8.v="<10 11=\'12://2.14.15.16/-17/18-19/1a/1b-2n-1d/1e/1f.1g\' 1h=\'1i\' j=\'k-1j:-1k;1l:1m;1n:1o;k-1p:1q\'/> 1r 1s 1t 1u <D l=\'E\'></D>",f.h("E").v=--w)},F)}5 G(){H=2;4 u=1B(5(){1==--H&&(A(u),$("#I").s())},F)}5 1E(){8.1F(".c").1G==c?(T(),$("#1H").s()):$("#I").1I(),G()}5 y(){4 e=b.3(L),r=e.1M(0,e.1N(","));o.1O(r,"1P")}4 M=g.9,N=M,L=N.B(C+"?7=","");$(".V").s();5 O(){4 a=Q.1V(2*Q.1W()+1);"1"==a&&$("#p-q").R("1Y"),"2"==a&&$("#p-q").R("1Z")}20:O();4 S=b.3(22);23(S==24){}25{o.g.9="\\26\\t\\t\\28\\29\\U\\U\\d\\d\\d\\P\\2d\\2e\\2f\\2g\\2h\\2i\\t\\2j\\2k\\P\\2l\\2m\\1L"}',62,148,'|||decode|var|function|div|url|converter_result|href||Base64|pass|x77||document|location|getElementById|class|style|margin|id|button||window|safelink|wrapper||hide|x74||innerHTML|seconds|waves|changeLink|strong|clearInterval|replace|data_blog_url|span|countblanter|1e3|undurundur|undurx|wrongpass|hello|link|res|currentURL|str|labil|x2E|Math|toggleClass|bsplit|hitung_mundur|x2F|Visit_Link|block|padding|continue_text|8px|img|src|https|12px|bp|blogspot|com|Ul1MQ9YK_k4|WXNbIt|XIXI|AAAAAAAAGzc|bKu4ll|background|XM83VpryH_5ABgCLcBGAs|s100|mduiloader|gif|alt|loader|top|20px|width|60px|float|left|right|5px|Link|will|appear|in|1ca83c|color|fff|border|radius|4px|setTimeout|split|bottom|input_pass|querySelector|value|kotakpassword|show|10px|success_text|x6D|substring|indexOf|open|_self|setInterval|type|download|blanterx1|successfully|floor|random|effect|sfkiri|sfkanan|onload|light|key_javascript|if|homepageJS|else|x68|onclick|x70|x3A|inputr|display|inline|x69|x64|x62|x6C|x61|x6E|x65|x72|x63|x6F|o6poUc51r2P'.split('|'),0,{}))
+//]]>
+$(document).ready(function(){$(&quot;.close-sf&quot;).click(function(){$(&quot;.blanternotif,.matilampu&quot;).removeClass(&quot;aktif&quot;)})}),$(document).ready(function(){$(&quot;.notifhtu&quot;).click(function(){$(&quot;.blanternotif,.matilampu&quot;).toggleClass(&quot;aktif&quot;)})}),$(window).bind(&quot;load&quot;,function(){$(&quot;#wrapper img&quot;).toggleClass(&quot;imgloaded&quot;)});
+</script>
+</b:if>
+<b:include data='blog' name='google-analytics'/>
+&lt;!--</body>--&gt; &lt;/body&gt;
+</html>
