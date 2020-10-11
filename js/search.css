@@ -84,5 +84,5 @@
 .js-search-float {box-shadow:0 5px 10px rgba(0,0,0,.4)}
 .js-search-float > div {padding:.5em 1em}
 .js-search {
-border-radius:10%;
+border-radius:5px 10px 4px 8px;
 }
